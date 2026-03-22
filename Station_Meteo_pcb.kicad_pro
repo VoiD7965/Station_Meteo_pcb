@@ -412,6 +412,26 @@
     [
       "90bd0b60-6e70-43e1-8410-99fb54688c17",
       "Root"
+    ],
+    [
+      "9ce3ae06-c5cc-4000-b6d8-5ae3d540ff9d",
+      "MCU"
+    ],
+    [
+      "46b21e09-ea67-4534-a48d-e2dad69aede0",
+      "Alimentation"
+    ],
+    [
+      "d62bceb2-9908-4d7c-aad2-bbefb30f6285",
+      "Capteurs"
+    ],
+    [
+      "3922ef04-1be0-4a1a-a432-baea08402c76",
+      "Ecran"
+    ],
+    [
+      "984e9888-fb5d-44c2-b921-2df7568952dd",
+      "Debug"
     ]
   ],
   "text_variables": {}
