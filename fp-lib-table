@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Composants_Perso")(type "KiCad")(uri "${KIPRJMOD}/libs/footprints/Composants_Perso.pretty")(options "")(descr ""))
+)
