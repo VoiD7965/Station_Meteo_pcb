@@ -878,7 +878,7 @@
 	)
 	(symbol
 		(lib_id "8205A:8205A")
-		(at 81.28 81.28 0)
+		(at 100.33 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -887,7 +887,7 @@
 		(fields_autoplaced yes)
 		(uuid "07b1747b-17e2-4eda-b6af-226ab681e5b3")
 		(property "Reference" "U3"
-			(at 90.17 79.0828 0)
+			(at 109.22 76.5428 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -896,7 +896,7 @@
 			)
 		)
 		(property "Value" "8205A"
-			(at 90.17 81.6228 0)
+			(at 109.22 79.0828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -904,8 +904,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "8205A:SOT95P285X140-6N"
-			(at 81.28 81.28 0)
+		(property "Footprint" "Composants_Perso:SOT95P285X140-6N"
+			(at 100.33 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -915,7 +915,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 81.28 0)
+			(at 100.33 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -924,7 +924,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 81.28 81.28 0)
+			(at 100.33 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -933,7 +933,7 @@
 			)
 		)
 		(property "MF" "UMW"
-			(at 81.28 81.28 0)
+			(at 100.33 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -943,7 +943,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.40mm"
-			(at 81.28 81.28 0)
+			(at 100.33 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -953,7 +953,7 @@
 			)
 		)
 		(property "Package" "SOT-23-6 UMW"
-			(at 81.28 81.28 0)
+			(at 100.33 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -963,7 +963,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 81.28 81.28 0)
+			(at 100.33 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -973,7 +973,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/8205A/UMW/view-part/?ref=eda"
-			(at 81.28 81.28 0)
+			(at 100.33 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -983,7 +983,7 @@
 			)
 		)
 		(property "STANDARD" "IPC 7351B"
-			(at 81.28 81.28 0)
+			(at 100.33 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -993,7 +993,7 @@
 			)
 		)
 		(property "PARTREV" "NA"
-			(at 81.28 81.28 0)
+			(at 100.33 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1003,7 +1003,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/8205A/UMW/view-part/?ref=snap"
-			(at 81.28 81.28 0)
+			(at 100.33 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1013,7 +1013,7 @@
 			)
 		)
 		(property "MP" "8205A"
-			(at 81.28 81.28 0)
+			(at 100.33 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1023,7 +1023,7 @@
 			)
 		)
 		(property "Description_1" "Mosfet Array 20V 5A 830mW (Ta) Surface Mount SOT-23-6"
-			(at 81.28 81.28 0)
+			(at 100.33 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1033,7 +1033,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 81.28 81.28 0)
+			(at 100.33 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1043,7 +1043,7 @@
 			)
 		)
 		(property "MANUFACTURER" "UMW"
-			(at 81.28 81.28 0)
+			(at 100.33 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
