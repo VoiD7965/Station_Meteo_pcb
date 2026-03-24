@@ -1,5 +1,4 @@
 (fp_lib_table
   (version 7)
-  (lib (name "8205A")(type "KiCad")(uri "${KIPRJMOD}/libs/footprints/Composants_Perso.pretty")(options "")(descr ""))
-  (lib (name "TPS63802DLAR")(type "KiCad")(uri "${KIPRJMOD}/libs/footprints/Composants_Perso.pretty")(options "")(descr ""))
+  (lib (name "Composants_Perso")(type "KiCad")(uri "${KIPRJMOD}/libs/footprints/Composants_Perso.pretty")(options "")(descr ""))
 )

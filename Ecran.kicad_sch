@@ -1785,6 +1785,382 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SI2301CDS_T1_E3:SI2301CDS-T1-E3"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 11.43 1.905 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "SI2301CDS-T1-E3"
+				(at 11.43 -2.54 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "Composants_Perso:SI2301CDS_T1_E3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/doc?68741"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "SI2301CDS-T1-E3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "PMOSGSD_SOT-23_TO-236_VIS PMOSGSD_SOT-23_TO-236_VIS-M PMOSGSD_SOT-23_TO-236_VIS-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SI2301CDS-T1-E3_0_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 4.445 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 -2.54) (xy 4.445 2.54)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 1.905) (xy 6.985 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 1.27) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.715 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -0.635) (xy 5.08 0.635)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -1.905) (xy 6.985 -1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 5.08 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.715 0.635) (xy 6.985 0) (xy 5.715 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 6.35 0)
+					(radius 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.985 2.54) (xy 8.255 2.54)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.985 1.905) (xy 6.985 2.54)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 6.985 -1.905)
+					(radius 0.127)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.985 -2.54) (xy 6.985 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.985 -2.54) (xy 8.255 -2.54)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 7.62 2.54)
+					(radius 0.127)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 7.62 -2.54)
+					(radius 0.127)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.255 0.635) (xy 8.255 2.54)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.255 -2.54) (xy 8.255 -0.635)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 0.635) (xy 7.62 0.635) (xy 8.255 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 -0.635) (xy 7.62 -0.635)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Transistor_BJT:Q_NPN_BCE"
 			(pin_names
 				(offset 0)
@@ -2440,6 +2816,12 @@
 		(uuid "14efff73-b7d1-42df-988e-883cc09acd6d")
 	)
 	(junction
+		(at 76.2 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d20b905-8ce2-477c-aa67-9e49d58af41d")
+	)
+	(junction
 		(at 38.1 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2534,6 +2916,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed62c6e2-5759-46d0-b44f-0fea9284fb82")
+	)
+	(junction
+		(at 82.55 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4cc359a-38fe-478d-b0cd-6afb24cd8750")
 	)
 	(junction
 		(at 179.07 69.85)
@@ -2770,6 +3158,16 @@
 			(type default)
 		)
 		(uuid "52fdc0da-1be2-441a-99c0-a81bfe8ff3e1")
+	)
+	(wire
+		(pts
+			(xy 76.2 92.71) (xy 85.09 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "571b5987-3ce9-4978-ba38-7733388b7b49")
 	)
 	(wire
 		(pts
@@ -3033,13 +3431,13 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 100.33) (xy 82.55 105.41)
+			(xy 82.55 100.33) (xy 90.17 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "962f0f76-f177-4c3a-bbfc-872e27848769")
+		(uuid "9a801eb4-a885-4070-a603-0f17d62227f2")
 	)
 	(wire
 		(pts
@@ -3113,6 +3511,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 100.33) (xy 82.55 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac157f50-6623-47d1-bf58-393ea6a5fbf3")
+	)
+	(wire
+		(pts
 			(xy 59.69 38.1) (xy 63.5 38.1)
 		)
 		(stroke
@@ -3120,16 +3528,6 @@
 			(type default)
 		)
 		(uuid "b086ccec-ffdc-4eca-9643-112bdb72c625")
-	)
-	(wire
-		(pts
-			(xy 76.2 100.33) (xy 82.55 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b093c026-9167-4642-9aa8-f1a2a81eb4d7")
 	)
 	(wire
 		(pts
@@ -3243,6 +3641,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 92.71) (xy 101.6 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0226070-4e72-4f15-a2ab-df7aacc63d12")
+	)
+	(wire
+		(pts
 			(xy 120.65 87.63) (xy 172.72 87.63)
 		)
 		(stroke
@@ -3320,6 +3728,16 @@
 			(type default)
 		)
 		(uuid "f13a99d8-e883-4eb9-9127-92ab3a1418f1")
+	)
+	(wire
+		(pts
+			(xy 82.55 105.41) (xy 82.55 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4dc5c78-11a1-40b9-a2dd-e2f15dbda697")
 	)
 	(wire
 		(pts
@@ -3497,7 +3915,7 @@
 	)
 	(global_label "VCC"
 		(shape input)
-		(at 92.71 92.71 0)
+		(at 101.6 92.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3507,7 +3925,7 @@
 		)
 		(uuid "6c7785ea-d603-4055-ac5b-b8a2af75d6bd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.3238 92.71 0)
+			(at 108.2138 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5766,6 +6184,79 @@
 			(project "Station_Meteo_pcb"
 				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17/3922ef04-1be0-4a1a-a432-baea08402c76"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SI2301CDS_T1_E3:SI2301CDS-T1-E3")
+		(at 90.17 100.33 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f0dd3a1f-71d9-41d7-ae58-9d08893ac749")
+		(property "Reference" "Q7"
+			(at 90.17 85.09 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "SI2301CDS-T1-E3"
+			(at 90.17 87.63 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Composants_Perso:SI2301CDS_T1_E3"
+			(at 90.17 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/doc?68741"
+			(at 90.17 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9f3d780-266b-40c9-a972-81b69fc1876c")
+		)
+		(pin "3"
+			(uuid "4279d2fd-0afc-49da-b2c8-558df22c6c8f")
+		)
+		(pin "2"
+			(uuid "1992900e-d847-4fb9-8e55-fc1149420aaa")
+		)
+		(instances
+			(project ""
+				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17/3922ef04-1be0-4a1a-a432-baea08402c76"
+					(reference "Q7")
 					(unit 1)
 				)
 			)

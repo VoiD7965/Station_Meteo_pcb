@@ -1,5 +1,7 @@
 (sym_lib_table
   (version 7)
-  (lib (name "8205A")(type "KiCad")(uri "${KIPRJMOD}/libs/symbols/8205A.kicad_sym")(options "")(descr ""))
   (lib (name "TPS63802DLAR")(type "KiCad")(uri "${KIPRJMOD}/libs/symbols/TPS63802DLAR.kicad_sym")(options "")(descr ""))
+  (lib (name "SI2301CDS_T1_E3")(type "KiCad")(uri "${KIPRJMOD}/libs/symbols/SI2301CDS_T1_E3.kicad_sym")(options "")(descr ""))
+  (lib (name "FS8205A")(type "KiCad")(uri "${KIPRJMOD}/libs/symbols/FS8205A.kicad_sym")(options "")(descr ""))
+  (lib (name "DW01S")(type "KiCad")(uri "${KIPRJMOD}/libs/symbols/DW01S.kicad_sym")(options "")(descr ""))
 )
