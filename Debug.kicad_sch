@@ -895,6 +895,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "ref jlc : C27985148 ou C3975190"
+		(exclude_from_sim no)
+		(at 145.288 119.126 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c66d3dd4-a474-479f-8299-1d61899b0781")
+	)
 	(junction
 		(at 157.48 90.17)
 		(diameter 0)
