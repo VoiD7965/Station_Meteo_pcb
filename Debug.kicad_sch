@@ -742,6 +742,17 @@
 		)
 		(uuid "c66d3dd4-a474-479f-8299-1d61899b0781")
 	)
+	(text "pas besoin de tx rx et swo\n\n\n\n"
+		(exclude_from_sim no)
+		(at 85.344 97.536 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "cfefd2d5-4abe-4c51-9c84-8bd843e46379")
+	)
 	(junction
 		(at 64.77 82.55)
 		(diameter 0)

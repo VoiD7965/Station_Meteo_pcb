@@ -2184,6 +2184,17 @@
 		)
 		(uuid "5ab76b92-b416-4195-9ae1-96e81158735d")
 	)
+	(text "pin 8 à la masse"
+		(exclude_from_sim no)
+		(at 130.556 46.482 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "5b956084-0352-4b8a-9f88-183056b06253")
+	)
 	(text "Connecteur\n"
 		(exclude_from_sim no)
 		(at 127 22.352 0)

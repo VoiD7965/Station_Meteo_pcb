@@ -722,6 +722,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "SDO à la masse\n"
+		(exclude_from_sim no)
+		(at 166.878 84.582 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "a0164356-6232-429e-b0f8-c2e27ae3d7bf")
+	)
 	(junction
 		(at 137.16 77.47)
 		(diameter 0)

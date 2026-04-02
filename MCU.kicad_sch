@@ -359,6 +359,179 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Crystal"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Crystal"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Two pin crystal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "quartz ceramic resonator oscillator"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Crystal*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Crystal_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.905 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -1.27) (xy -1.905 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.143 2.54)
+					(end 1.143 -2.54)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -1.27) (xy 1.905 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Crystal_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:Crystal_GND24"
 			(pin_names
 				(offset 1.016)
@@ -2514,6 +2687,114 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(text "ECX-.327-CDX-1293"
+		(exclude_from_sim no)
+		(at 247.65 42.418 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2a74b067-b553-49e8-9282-ce8444d37441")
+	)
+	(text "c'est quoi ce signal ?"
+		(exclude_from_sim no)
+		(at 93.98 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 9 0 1)
+			)
+		)
+		(uuid "397c751d-d80e-4c2a-9e63-f64f74df0e0d")
+	)
+	(text "+3 gpio/pad pour debug"
+		(exclude_from_sim no)
+		(at 109.728 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 9 0 1)
+			)
+		)
+		(uuid "74895185-963d-4101-b8ac-c7eba783e344")
+	)
+	(text "rajouter mesure_batterie sur une gpio adc_in"
+		(exclude_from_sim no)
+		(at 186.69 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "7ab51730-65c2-4366-97f8-a810fb1387de")
+	)
+	(text "on peut en effet connecter vbat à vdd (ou le laisser en l'air) mais faut rajouter une 100nF"
+		(exclude_from_sim no)
+		(at 187.452 140.208 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 9 0 1)
+			)
+		)
+		(uuid "9537a176-5fc8-43bb-b5d3-5415561d1821")
+	)
+	(text "on a pas besoin d'uart vu qu'on a SWD"
+		(exclude_from_sim no)
+		(at 87.122 89.154 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 9 0 1)
+			)
+		)
+		(uuid "9c61f57c-9c20-4bcd-befd-0b628205a8be")
+	)
+	(text "J'ai cherché une ref de quartz précis, \nil a que 2 pin et il faut du 12.5pF"
+		(exclude_from_sim no)
+		(at 233.934 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 9 0 1)
+			)
+		)
+		(uuid "cfa9bb04-e4bf-43a1-bfcb-67e8a8c2ba28")
+	)
+	(text "internal pull-up"
+		(exclude_from_sim no)
+		(at 186.69 113.538 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dbc8650a-2682-4f61-bb6b-c0b5c73ecc27")
+	)
+	(text "mettre pull-down 10k"
+		(exclude_from_sim no)
+		(at 199.136 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 9 0 1)
+			)
+		)
+		(uuid "ee19414e-3cd5-4a42-9fac-0cd658dd1a7b")
+	)
+	(text "faut bien connecté vddusb à vdd meme si on l'utilise pas, \nmais j'ai pas trouvé beaucoup d'info sur les capa bulk, \nde ce que je vois, une 100nF suffit"
+		(exclude_from_sim no)
+		(at 65.786 141.478 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 9 0 1)
+			)
+		)
+		(uuid "eeaddb29-8858-4aa3-94b3-35872d6bf92e")
 	)
 	(junction
 		(at 209.55 53.34)
@@ -4850,6 +5131,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Crystal")
+		(at 224.79 41.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f157417-f4c1-44cc-a39a-a0a71387e5ab")
+		(property "Reference" "Y2"
+			(at 228.6 40.6399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Crystal"
+			(at 228.6 43.1799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Two pin crystal"
+			(at 224.79 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "87f55b8c-14fe-4449-8fc5-19ee5c8c1123")
+		)
+		(pin "1"
+			(uuid "bfc45ab1-dd19-44bb-97f3-c1c2de76b072")
+		)
+		(instances
+			(project ""
+				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17/9ce3ae06-c5cc-4000-b6d8-5ae3d540ff9d"
+					(reference "Y2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 105.41 127 0)
 		(unit 1)
@@ -4867,7 +5218,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10n"
 			(at 107.95 130.048 0)
 			(effects
 				(font

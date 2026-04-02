@@ -3393,6 +3393,48 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "pas 3.3V mais out+"
+		(exclude_from_sim no)
+		(at 241.808 23.114 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "070137a9-eef1-4e7f-95b5-d5c16bd0e4e1")
+	)
+	(text "1Mohm"
+		(exclude_from_sim no)
+		(at 217.932 34.798 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1224b6c5-cc29-4c6e-a194-a95c8d1697a7")
+	)
+	(text "1Mohm\nsi pb 47k"
+		(exclude_from_sim no)
+		(at 41.148 39.624 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4640d61d-c46b-4a11-9eb9-1e0c306eea15")
+	)
+	(text "On va regrouper les labels usb- et out- sur GND pour qu'ils soient regroupé sur le schéma"
+		(exclude_from_sim no)
+		(at 105.156 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "4a44fccc-4849-4ec5-b38b-a4797e0566cb")
+	)
 	(text "Alimenation écran\n"
 		(exclude_from_sim no)
 		(at 46.482 20.828 0)
@@ -3402,6 +3444,27 @@
 			)
 		)
 		(uuid "5718e3d6-4d0c-48b8-9929-a4dc370013bb")
+	)
+	(text "regrouper sur un seul label"
+		(exclude_from_sim no)
+		(at 197.612 98.552 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "5745dd6b-2f36-4340-893d-6bc1bcafb245")
+	)
+	(text "prévoir R16\nau moins 1/4W"
+		(exclude_from_sim no)
+		(at 166.37 93.726 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5dcfaab6-734e-4d7a-b724-d59658133aed")
 	)
 	(text "Alimenation batterie\n\n"
 		(exclude_from_sim no)
@@ -3413,6 +3476,17 @@
 		)
 		(uuid "6a3552b2-195b-41c6-ac3e-2f5b14bc9bf3")
 	)
+	(text "j'ai l'impression que les signaux\n2 et 5 du 8205 sont inversés"
+		(exclude_from_sim no)
+		(at 145.796 132.334 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "8e54a51a-c7cf-4282-bb92-9322b02e5b98")
+	)
 	(text "Buckboost\n"
 		(exclude_from_sim no)
 		(at 122.174 22.606 0)
@@ -3423,6 +3497,38 @@
 		)
 		(uuid "97939cb2-b15c-4fb2-a194-50923c2eb277")
 	)
+	(text "1Mohm\nsi pb 100k"
+		(exclude_from_sim no)
+		(at 29.972 62.738 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9c6d6c23-226f-4d73-a52d-5eeebaabd3ca")
+	)
+	(text "calculer PDDT\npour que 4.2V ->  >3.3V"
+		(exclude_from_sim no)
+		(at 270.256 57.658 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "b566c605-d3ee-499e-a69b-3b3410c32d67")
+	)
+	(text "rajouter une 10uF pour etre safe"
+		(exclude_from_sim no)
+		(at 29.464 117.856 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "bff5af28-9032-479d-aea0-170e6af511e1")
+	)
 	(text "Bloc régulation de charge\n"
 		(exclude_from_sim no)
 		(at 84.582 90.17 0)
@@ -3432,6 +3538,38 @@
 			)
 		)
 		(uuid "c82d36b0-498e-4781-b935-8450e94dcd53")
+	)
+	(text "rajouter mosfet + diode pour la recharge en utilisation"
+		(exclude_from_sim no)
+		(at 119.888 83.566 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "db08aff6-6b75-46e0-9673-55abe426339e")
+	)
+	(text "1Mohm"
+		(exclude_from_sim no)
+		(at 208.28 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ea9c4b23-46e7-4089-b3c9-f793a7722151")
+	)
+	(text "vérif valeur R en fonction de la ref de LED choisi"
+		(exclude_from_sim no)
+		(at 48.26 124.206 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "f7761e40-4cb7-4251-9ba7-6a04d0853ab5")
 	)
 	(junction
 		(at 97.79 43.18)
