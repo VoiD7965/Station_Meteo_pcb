@@ -3462,6 +3462,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 255 0 0 1)
 			)
 		)
 		(uuid "5dcfaab6-734e-4d7a-b724-d59658133aed")
@@ -3506,6 +3507,28 @@
 			)
 		)
 		(uuid "9c6d6c23-226f-4d73-a52d-5eeebaabd3ca")
+	)
+	(text "rajouter connecteur bloc pile"
+		(exclude_from_sim no)
+		(at 215.138 108.712 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "9f0e5e35-55b9-4d37-a7e6-eacbd6f533cc")
+	)
+	(text "rajouter connecteur USB C"
+		(exclude_from_sim no)
+		(at 27.686 94.996 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "b190bedd-a7fe-49f1-98fd-1cdb737395bd")
 	)
 	(text "calculer PDDT\npour que 4.2V ->  >3.3V"
 		(exclude_from_sim no)
