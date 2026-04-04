@@ -2184,17 +2184,6 @@
 		)
 		(uuid "5ab76b92-b416-4195-9ae1-96e81158735d")
 	)
-	(text "pin 8 à la masse"
-		(exclude_from_sim no)
-		(at 130.556 46.482 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "5b956084-0352-4b8a-9f88-183056b06253")
-	)
 	(text "Connecteur\n"
 		(exclude_from_sim no)
 		(at 127 22.352 0)
@@ -2296,6 +2285,12 @@
 		(uuid "a7371e23-0bbe-424e-a4e3-aae97530b0c5")
 	)
 	(junction
+		(at 179.07 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "abd359a5-a102-470d-a380-8317054e7cf6")
+	)
+	(junction
 		(at 124.46 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2326,10 +2321,6 @@
 	(no_connect
 		(at 120.65 29.21)
 		(uuid "a7905c48-d774-4213-97d4-2a87477332d1")
-	)
-	(no_connect
-		(at 120.65 46.99)
-		(uuid "a8d3ce29-9096-42f2-9b25-0396692d6461")
 	)
 	(no_connect
 		(at 120.65 74.93)
@@ -2432,6 +2423,16 @@
 			(type default)
 		)
 		(uuid "21f03852-8dc9-4177-b725-1594eae91ded")
+	)
+	(wire
+		(pts
+			(xy 179.07 46.99) (xy 179.07 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f3c7120-f2f2-4e30-81b7-1277a1a8ed7d")
 	)
 	(wire
 		(pts
@@ -2552,6 +2553,16 @@
 			(type default)
 		)
 		(uuid "59f758bb-3c28-4c9f-b408-9e7a06a61133")
+	)
+	(wire
+		(pts
+			(xy 120.65 46.99) (xy 179.07 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5aa407f8-7e11-4bb0-8a67-12eabbfe3e18")
 	)
 	(wire
 		(pts
@@ -2825,7 +2836,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 39.37) (xy 179.07 64.77)
+			(xy 179.07 39.37) (xy 179.07 46.99)
 		)
 		(stroke
 			(width 0)

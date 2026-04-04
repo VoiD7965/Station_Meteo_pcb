@@ -430,7 +430,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -633,6 +633,10 @@
     [
       "984e9888-fb5d-44c2-b921-2df7568952dd",
       "Debug"
+    ],
+    [
+      "acdb258c-42de-401c-9111-59e7e388a012",
+      "Connecteurs"
     ]
   ],
   "text_variables": {}

@@ -722,17 +722,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "SDO à la masse\n"
-		(exclude_from_sim no)
-		(at 166.878 84.582 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "a0164356-6232-429e-b0f8-c2e27ae3d7bf")
-	)
 	(junction
 		(at 137.16 77.47)
 		(diameter 0)
@@ -780,10 +769,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e4439716-fc2f-4280-9c53-afbe8abcd231")
-	)
-	(no_connect
-		(at 154.94 85.09)
-		(uuid "5006fe62-18f7-49b8-880b-bfb962b71c4b")
 	)
 	(wire
 		(pts
@@ -944,6 +929,16 @@
 			(type default)
 		)
 		(uuid "8b54ca1d-7c67-44a1-b124-5e3e3db78f76")
+	)
+	(wire
+		(pts
+			(xy 154.94 85.09) (xy 158.75 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94efe7dd-ece2-4257-89c3-b5a219a98605")
 	)
 	(wire
 		(pts
@@ -1602,6 +1597,73 @@
 			(project "Station_Meteo_pcb"
 				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17/d62bceb2-9908-4d7c-aad2-bbefb30f6285"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 158.75 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9dd6afd5-9ba4-447b-9163-af44e6bb4465")
+		(property "Reference" "#PWR023"
+			(at 165.1 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 85.0899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 158.75 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a63124f6-37c6-42eb-afce-387514ae9234")
+		)
+		(instances
+			(project ""
+				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17/d62bceb2-9908-4d7c-aad2-bbefb30f6285"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
