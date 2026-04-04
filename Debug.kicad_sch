@@ -1057,6 +1057,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 77.47 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "9"
 			(uuid "3a592948-5cfe-48c8-881a-e60750a60b5e")
 		)

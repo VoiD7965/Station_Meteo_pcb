@@ -1099,6 +1099,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 142.24 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "790528ee-2cc3-4571-9fb5-f38c894b1e7e")
 		)
@@ -1433,6 +1442,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 181.61 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "74ef6e80-56b3-4ba2-8c1d-6677d6088c2d")
 		)
@@ -1495,6 +1513,15 @@
 			)
 		)
 		(property "Description" "3-in-1 sensor, humidity, pressure, temperature, I2C and SPI interface, 1.71-3.6V, LGA-8"
+			(at 139.7 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 139.7 92.71 0)
 			(effects
 				(font
@@ -1724,6 +1751,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 167.64 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "28006641-c260-4acb-930f-957132c14c41")
 		)
@@ -1785,6 +1821,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 137.16 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 137.16 69.85 0)
 			(effects
 				(font

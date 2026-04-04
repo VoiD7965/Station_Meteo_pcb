@@ -776,6 +776,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 162.56 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A12"
 			(uuid "7468051c-b492-4c09-9d25-cd46f0f5538c")
 		)
@@ -879,6 +888,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
+			(at 110.49 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 110.49 72.39 0)
 			(effects
 				(font
