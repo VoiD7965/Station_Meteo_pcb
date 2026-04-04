@@ -3543,17 +3543,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "On va regrouper les labels usb- et out- sur GND pour qu'ils soient regroupé sur le schéma"
-		(exclude_from_sim no)
-		(at 105.156 138.43 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "4a44fccc-4849-4ec5-b38b-a4797e0566cb")
-	)
 	(text "Alimenation écran\n"
 		(exclude_from_sim no)
 		(at 46.482 20.828 0)
@@ -3563,17 +3552,6 @@
 			)
 		)
 		(uuid "5718e3d6-4d0c-48b8-9929-a4dc370013bb")
-	)
-	(text "regrouper sur un seul label"
-		(exclude_from_sim no)
-		(at 197.612 98.552 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "5745dd6b-2f36-4340-893d-6bc1bcafb245")
 	)
 	(text "prévoir R16\nau moins 1/4W"
 		(exclude_from_sim no)
@@ -3596,17 +3574,6 @@
 		)
 		(uuid "6a3552b2-195b-41c6-ac3e-2f5b14bc9bf3")
 	)
-	(text "j'ai l'impression que les signaux\n2 et 5 du 8205 sont inversés"
-		(exclude_from_sim no)
-		(at 145.796 132.334 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "8e54a51a-c7cf-4282-bb92-9322b02e5b98")
-	)
 	(text "Buckboost\n"
 		(exclude_from_sim no)
 		(at 122.174 22.606 0)
@@ -3616,28 +3583,6 @@
 			)
 		)
 		(uuid "97939cb2-b15c-4fb2-a194-50923c2eb277")
-	)
-	(text "rajouter connecteur bloc pile"
-		(exclude_from_sim no)
-		(at 215.138 108.712 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "9f0e5e35-55b9-4d37-a7e6-eacbd6f533cc")
-	)
-	(text "rajouter connecteur USB C"
-		(exclude_from_sim no)
-		(at 27.686 94.996 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "b190bedd-a7fe-49f1-98fd-1cdb737395bd")
 	)
 	(text "Bloc régulation de charge\n"
 		(exclude_from_sim no)
@@ -3695,6 +3640,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4705638d-b3a0-4f5c-b741-af9e1b5c64ac")
+	)
+	(junction
+		(at 27.94 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b739780-62ba-43e8-ba65-8aea7199bd5c")
 	)
 	(junction
 		(at 82.55 129.54)
@@ -3793,12 +3744,6 @@
 		(uuid "ad540b5a-0b35-48f6-ae22-2e5cb85cc030")
 	)
 	(junction
-		(at 182.88 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "adb6f99f-a9d2-499b-b4c4-023346bc2db5")
-	)
-	(junction
 		(at 224.79 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3845,12 +3790,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e826ff3c-694f-40dd-81d2-d89b3d19bffd")
-	)
-	(junction
-		(at 27.94 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e8f671a2-3332-41e6-88b3-cfb19fa54038")
 	)
 	(junction
 		(at 80.01 129.54)
@@ -3976,16 +3915,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 129.54) (xy 27.94 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09dbb913-8f79-4c4a-bc70-da6536425bfd")
-	)
-	(wire
-		(pts
 			(xy 48.26 34.29) (xy 48.26 35.56)
 		)
 		(stroke
@@ -4023,16 +3952,6 @@
 			(type default)
 		)
 		(uuid "15ad9992-59fe-42e2-a975-aad533933218")
-	)
-	(wire
-		(pts
-			(xy 139.7 127) (xy 139.7 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16872a8b-7ecd-42b5-ad0f-388db6a6ef94")
 	)
 	(wire
 		(pts
@@ -4086,7 +4005,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 116.84) (xy 170.18 128.27)
+			(xy 170.18 116.84) (xy 170.18 121.92)
 		)
 		(stroke
 			(width 0)
@@ -4126,16 +4045,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 128.27) (xy 139.7 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "264f361b-e529-4de1-9f56-99820e64dfed")
-	)
-	(wire
-		(pts
 			(xy 137.16 53.34) (xy 139.7 53.34)
 		)
 		(stroke
@@ -4153,6 +4062,16 @@
 			(type default)
 		)
 		(uuid "2883de0f-5f02-40c9-96ff-0eb93768ffd7")
+	)
+	(wire
+		(pts
+			(xy 130.81 127) (xy 139.7 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28e50e9a-87c9-47fd-b023-b0e47f1c94c9")
 	)
 	(wire
 		(pts
@@ -4266,6 +4185,26 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 129.54) (xy 27.94 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d92c142-3364-4569-a2b4-bef09b86e567")
+	)
+	(wire
+		(pts
+			(xy 152.4 121.92) (xy 170.18 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e4de362-f94d-4a79-b51c-691541e9152d")
+	)
+	(wire
+		(pts
 			(xy 166.37 116.84) (xy 170.18 116.84)
 		)
 		(stroke
@@ -4286,7 +4225,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 111.76) (xy 129.54 104.14)
+			(xy 130.81 104.14) (xy 130.81 127)
 		)
 		(stroke
 			(width 0)
@@ -4466,16 +4405,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 129.54) (xy 186.69 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6363130c-a414-45fb-ada2-3afaf62fa4d6")
-	)
-	(wire
-		(pts
 			(xy 88.9 33.02) (xy 97.79 33.02)
 		)
 		(stroke
@@ -4623,16 +4552,6 @@
 			(type default)
 		)
 		(uuid "81a7a815-cad4-42f1-9439-a00e811c44f0")
-	)
-	(wire
-		(pts
-			(xy 152.4 121.92) (xy 152.4 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81f7afdf-ee9a-4692-ab03-f3599abbd071")
 	)
 	(wire
 		(pts
@@ -4843,16 +4762,6 @@
 			(type default)
 		)
 		(uuid "ac3e7532-8751-4d7d-8bdd-7e29155ba84a")
-	)
-	(wire
-		(pts
-			(xy 129.54 104.14) (xy 130.81 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad9338fa-e3e7-4d1a-9b94-c1052d9f0308")
 	)
 	(wire
 		(pts
@@ -5246,16 +5155,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 111.76) (xy 129.54 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbc46125-f546-41d8-ba6f-59e1b7d99e38")
-	)
-	(wire
-		(pts
 			(xy 146.05 33.02) (xy 153.67 33.02)
 		)
 		(stroke
@@ -5263,28 +5162,6 @@
 			(type default)
 		)
 		(uuid "fd94b56f-f0ac-4441-b3b8-a1bdab204c76")
-	)
-	(global_label "USB-"
-		(shape input)
-		(at 25.4 129.54 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "107c2b97-e6d6-4f43-ae02-21ad2da5a6a4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 17.0324 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
 	(global_label "EPD_PWR"
 		(shape input)
@@ -5462,28 +5339,6 @@
 			)
 		)
 	)
-	(global_label "OUT-"
-		(shape input)
-		(at 186.69 129.54 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b11fa0f2-cf50-4c50-bbc2-fbafe9a88e8c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.8762 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "CMD_ALIM_SCREEN"
 		(shape input)
 		(at 34.29 57.15 180)
@@ -5519,28 +5374,6 @@
 		(uuid "cad94bb4-a92d-4b33-9da4-bedf2ca6c45a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 60.96 186.1676 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "OUT+"
-		(shape input)
-		(at 212.09 95.25 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d746ccd1-7507-425e-bfe6-4678d5a93ceb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.09 103.4362 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9861,6 +9694,72 @@
 			(project "Station_Meteo_pcb"
 				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17/46b21e09-ea67-4534-a48d-e2dad69aede0"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 27.94 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6c78df0-ef68-421a-8b22-7589258915fc")
+		(property "Reference" "#PWR039"
+			(at 27.94 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 27.94 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 27.94 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bfed8dc7-624e-464c-bd2c-c3cb7747b123")
+		)
+		(instances
+			(project "Station_Meteo_pcb"
+				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17/46b21e09-ea67-4534-a48d-e2dad69aede0"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
