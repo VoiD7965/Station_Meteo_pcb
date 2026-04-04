@@ -2557,28 +2557,6 @@
 		)
 		(uuid "2a74b067-b553-49e8-9282-ce8444d37441")
 	)
-	(text "+3 gpio/pad pour debug"
-		(exclude_from_sim no)
-		(at 109.728 33.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 9 0 1)
-			)
-		)
-		(uuid "74895185-963d-4101-b8ac-c7eba783e344")
-	)
-	(text "on peut en effet connecter vbat à vdd (ou le laisser en l'air) mais faut rajouter une 100nF"
-		(exclude_from_sim no)
-		(at 187.452 140.208 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 9 0 1)
-			)
-		)
-		(uuid "9537a176-5fc8-43bb-b5d3-5415561d1821")
-	)
 	(text "internal pull-up"
 		(exclude_from_sim no)
 		(at 186.69 113.538 0)
@@ -2588,17 +2566,6 @@
 			)
 		)
 		(uuid "dbc8650a-2682-4f61-bb6b-c0b5c73ecc27")
-	)
-	(text "faut bien connecté vddusb à vdd meme si on l'utilise pas, \nmais j'ai pas trouvé beaucoup d'info sur les capa bulk, \nde ce que je vois, une 100nF suffit"
-		(exclude_from_sim no)
-		(at 65.786 141.478 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 9 0 1)
-			)
-		)
-		(uuid "eeaddb29-8858-4aa3-94b3-35872d6bf92e")
 	)
 	(junction
 		(at 191.77 124.46)
@@ -2673,6 +2640,12 @@
 		(uuid "b321cae0-b0b5-4f7c-a466-62694d2729a1")
 	)
 	(junction
+		(at 167.64 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3b3e2b3-d010-49e5-9535-ec33da2f4420")
+	)
+	(junction
 		(at 144.78 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2683,6 +2656,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c456a177-1fb0-44e2-8d12-d1044af73a77")
+	)
+	(junction
+		(at 116.84 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7258b4f-292a-4b9a-b754-ef76cf4c5f85")
 	)
 	(junction
 		(at 165.1 113.03)
@@ -2708,9 +2687,11 @@
 		(color 0 0 0 0)
 		(uuid "f1a90ff7-e21e-4615-8e96-fa1265c6c4f3")
 	)
-	(no_connect
-		(at 160.02 72.39)
-		(uuid "01595e05-edd3-4f2f-9cdc-2de48cf96214")
+	(junction
+		(at 116.84 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f663b935-5360-4095-b2cd-53ed1916e56b")
 	)
 	(no_connect
 		(at 124.46 87.63)
@@ -2753,20 +2734,12 @@
 		(uuid "3dc005db-538a-486c-a0a2-f9bf6215e8f3")
 	)
 	(no_connect
-		(at 124.46 31.75)
-		(uuid "4007a088-7898-41fd-964f-c01b20863c97")
-	)
-	(no_connect
 		(at 124.46 52.07)
 		(uuid "4fcaa171-4d73-4e35-9d84-9051fb9c98e0")
 	)
 	(no_connect
 		(at 124.46 85.09)
 		(uuid "50915e3c-0b33-4ae7-8e60-3f780d2edef0")
-	)
-	(no_connect
-		(at 124.46 69.85)
-		(uuid "596c4a58-b99a-4701-89a9-9b577fbf7ebe")
 	)
 	(no_connect
 		(at 124.46 44.45)
@@ -2860,6 +2833,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 67.31) (xy 116.84 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "092398f3-a345-4c0c-802f-84be22804eac")
+	)
+	(wire
+		(pts
 			(xy 142.24 120.65) (xy 142.24 124.46)
 		)
 		(stroke
@@ -2877,6 +2860,16 @@
 			(type default)
 		)
 		(uuid "1569676e-dfd7-4dde-bf86-5846e7a6ef6a")
+	)
+	(wire
+		(pts
+			(xy 116.84 29.21) (xy 116.84 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15ef0b00-cd46-4b99-84b1-6672c520054c")
 	)
 	(wire
 		(pts
@@ -2917,6 +2910,16 @@
 			(type default)
 		)
 		(uuid "2acc9bc7-f09d-4a98-ae15-864d8c53013d")
+	)
+	(wire
+		(pts
+			(xy 167.64 69.85) (xy 167.64 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bab88bf-93d9-42ec-9f12-079c3831b4d2")
 	)
 	(wire
 		(pts
@@ -3180,6 +3183,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 72.39) (xy 160.02 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81980066-ba8b-400d-8e3b-5aa22f2d9520")
+	)
+	(wire
+		(pts
 			(xy 166.37 99.06) (xy 166.37 100.33)
 		)
 		(stroke
@@ -3187,6 +3200,16 @@
 			(type default)
 		)
 		(uuid "8c9eb28c-c050-4770-9c81-c1b2c7ca8f26")
+	)
+	(wire
+		(pts
+			(xy 116.84 31.75) (xy 124.46 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cf3f71d-3fd6-40da-9c07-aacd38bb2804")
 	)
 	(wire
 		(pts
@@ -3250,6 +3273,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 72.39) (xy 167.64 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b873d0a-b21f-4d59-b827-7e659fff323b")
+	)
+	(wire
+		(pts
 			(xy 165.1 118.11) (xy 165.1 119.38)
 		)
 		(stroke
@@ -3280,6 +3313,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 69.85) (xy 116.84 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b693d39c-ba57-4ebf-83c3-c3a4d5f30c4e")
+	)
+	(wire
+		(pts
 			(xy 113.03 107.95) (xy 124.46 107.95)
 		)
 		(stroke
@@ -3287,6 +3330,16 @@
 			(type default)
 		)
 		(uuid "b7f1e7e4-a8fe-45cb-94f0-4b97e02b95ac")
+	)
+	(wire
+		(pts
+			(xy 116.84 69.85) (xy 124.46 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b946126d-5620-4162-a6e3-23cc7ead5e12")
 	)
 	(wire
 		(pts
@@ -3480,6 +3533,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 31.75) (xy 116.84 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e713c9e8-74fd-4c80-ab64-41707d04a8c2")
+	)
+	(wire
+		(pts
 			(xy 114.3 124.46) (xy 137.16 124.46)
 		)
 		(stroke
@@ -3668,6 +3731,28 @@
 			)
 		)
 	)
+	(global_label "DEBUG2"
+		(shape input)
+		(at 114.3 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "41408dc1-627c-4c7f-9b1e-4f123ded60f0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 103.8158 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MEASURE_BATTERY"
 		(shape input)
 		(at 170.18 82.55 0)
@@ -3822,6 +3907,28 @@
 			)
 		)
 	)
+	(global_label "DEBUG1"
+		(shape input)
+		(at 114.3 31.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c06f1dd0-0967-484c-a4a1-42d6515e8649")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 103.8158 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "EPD_DIN"
 		(shape input)
 		(at 113.03 95.25 180)
@@ -3862,6 +3969,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DEBUG3"
+		(shape input)
+		(at 170.18 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "efcb93c2-c14d-4864-bbcb-aad9c435d7de")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 180.6642 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4750,6 +4879,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 116.84 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4f27598c-98e1-4ef2-ac0a-b70b133095db")
+		(property "Reference" "TP4"
+			(at 115.316 61.468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 105.918 65.786 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 116.84 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fd8a1f4d-dec3-4c97-bf87-bd619de57118")
+		)
+		(instances
+			(project "Station_Meteo_pcb"
+				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17/9ce3ae06-c5cc-4000-b6d8-5ae3d540ff9d"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 181.61 127 0)
 		(unit 1)
@@ -5491,6 +5686,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 116.84 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7efbf479-6755-424e-bcc8-495dd09350b2")
+		(property "Reference" "TP3"
+			(at 115.316 23.368 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 106.426 28.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 116.84 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8eae914e-24e5-4d8b-b45f-de85e895902c")
+		)
+		(instances
+			(project "Station_Meteo_pcb"
+				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17/9ce3ae06-c5cc-4000-b6d8-5ae3d540ff9d"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 72.39 127 0)
 		(unit 1)
@@ -6158,6 +6419,73 @@
 			(project "Station_Meteo_pcb"
 				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17/9ce3ae06-c5cc-4000-b6d8-5ae3d540ff9d"
 					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 167.64 69.85 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fa9672aa-9f86-4d6a-bd2e-14e909c755eb")
+		(property "Reference" "TP5"
+			(at 169.164 64.262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 177.292 68.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 167.64 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95189dd9-762e-40c3-852f-4bbe5a504fcc")
+		)
+		(instances
+			(project "Station_Meteo_pcb"
+				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17/9ce3ae06-c5cc-4000-b6d8-5ae3d540ff9d"
+					(reference "TP5")
 					(unit 1)
 				)
 			)

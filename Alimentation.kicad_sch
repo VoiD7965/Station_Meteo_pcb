@@ -3649,17 +3649,6 @@
 		)
 		(uuid "c82d36b0-498e-4781-b935-8450e94dcd53")
 	)
-	(text "A vérifier si c'est bien come ça"
-		(exclude_from_sim no)
-		(at 180.086 28.448 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 2 1)
-			)
-		)
-		(uuid "d9d619e2-868b-4001-8d2a-6145894382ca")
-	)
 	(text "vérif valeur R en fonction de la ref de LED choisi"
 		(exclude_from_sim no)
 		(at 48.26 124.206 0)
@@ -5690,7 +5679,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330K"
+		(property "Value" "33K"
 			(at 255.27 54.6099 0)
 			(effects
 				(font
@@ -6884,7 +6873,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "10k"
 			(at 245.11 41.91 90)
 			(effects
 				(font
@@ -7086,7 +7075,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 173.99 106.6799 0)
 			(effects
 				(font
