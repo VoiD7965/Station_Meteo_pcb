@@ -5,6 +5,197 @@
 	(uuid "1600a092-fc88-4dc1-ae58-2d47dcbe4e80")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Battery_Management:DW01A"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -6.604 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "DW01A"
+				(at 4.318 6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://hmsemi.com/downfile/DW01A.PDF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Overcharge, overcurrent and overdischarge protection IC for single cell lithium-ion/polymer battery"
+				(at 0.254 1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "battery protection li-ion lipo overcurrent overdischarge overcharge"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DW01A_0_1"
+				(pin power_in line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -2.54 -7.62 90)
+					(length 2.54)
+					(name "OD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 2.54 -7.62 90)
+					(length 2.54)
+					(name "OC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "CS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "DW01A_1_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin no_connect line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(hide yes)
+					(name "TD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Battery_Management:TP4056-42-ESOP8"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -244,250 +435,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "DW01S:DW01S"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "IC"
-				(at 21.59 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "DW01S"
-				(at 21.59 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "Composants_Perso:DW01S"
-				(at 21.59 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2408051436_GOODWORK-DW01S_C21713962.pdf"
-				(at 21.59 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "package-sot23"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "1.35"
-				(at 21.59 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Goodwork Semiconductor"
-				(at 21.59 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "DW01S"
-				(at 21.59 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" ""
-				(at 21.59 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" ""
-				(at 21.59 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" ""
-				(at 21.59 -894.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" ""
-				(at 21.59 -994.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "DW01S_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 20.32 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "OD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "CSI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "OC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 0 180)
-					(length 5.08)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -2.54 180)
-					(length 5.08)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -5.08 180)
-					(length 5.08)
-					(name "TD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 			)
@@ -3555,7 +3502,7 @@
 	)
 	(text "prévoir R16\nau moins 1/4W"
 		(exclude_from_sim no)
-		(at 166.37 93.726 0)
+		(at 173.228 85.344 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3816,10 +3763,6 @@
 		(uuid "feb565c1-08c2-44a6-b89f-2a493d380bab")
 	)
 	(no_connect
-		(at 156.21 104.14)
-		(uuid "1b8885bb-9793-4808-81be-4895242b1bb5")
-	)
-	(no_connect
 		(at 142.24 116.84)
 		(uuid "9f058c1c-f65a-4eda-ab4b-c69030810238")
 	)
@@ -3895,16 +3838,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 101.6) (xy 170.18 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08a01758-5d4d-49df-9436-acdf8fd9287c")
-	)
-	(wire
-		(pts
 			(xy 128.27 129.54) (xy 182.88 129.54)
 		)
 		(stroke
@@ -3922,6 +3855,16 @@
 			(type default)
 		)
 		(uuid "0b47e041-ceee-4c60-a97c-ffa67c20a4f1")
+	)
+	(wire
+		(pts
+			(xy 153.67 101.6) (xy 153.67 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ce7484c-4cf0-4a6e-a290-db2342cbe3a8")
 	)
 	(wire
 		(pts
@@ -4225,16 +4168,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 104.14) (xy 130.81 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "410047b3-d464-4d04-a3f4-380a22c2e0ce")
-	)
-	(wire
-		(pts
 			(xy 214.63 59.69) (xy 214.63 62.23)
 		)
 		(stroke
@@ -4285,6 +4218,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 96.52) (xy 129.54 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5412e015-3260-472a-aa7d-aad999735c6b")
+	)
+	(wire
+		(pts
 			(xy 48.26 43.18) (xy 48.26 45.72)
 		)
 		(stroke
@@ -4292,6 +4235,16 @@
 			(type default)
 		)
 		(uuid "5540233e-172b-4a9b-9636-dbf35ff63409")
+	)
+	(wire
+		(pts
+			(xy 158.75 92.71) (xy 158.75 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5574990b-855a-4dd7-a9b6-7ac6d9227d2b")
 	)
 	(wire
 		(pts
@@ -4305,6 +4258,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 109.22) (xy 130.81 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "560362a4-af0a-4a9e-9fc4-c1100c6774c8")
+	)
+	(wire
+		(pts
 			(xy 252.73 57.15) (xy 252.73 62.23)
 		)
 		(stroke
@@ -4315,7 +4278,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 99.06) (xy 166.37 116.84)
+			(xy 166.37 111.76) (xy 166.37 116.84)
 		)
 		(stroke
 			(width 0)
@@ -4332,6 +4295,16 @@
 			(type default)
 		)
 		(uuid "5be0ae15-b1f3-4598-80d0-22f8829fba1e")
+	)
+	(wire
+		(pts
+			(xy 133.35 101.6) (xy 133.35 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c1aa73b-7947-4822-89c8-a7fb480ee06e")
 	)
 	(wire
 		(pts
@@ -4375,16 +4348,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 101.6) (xy 128.27 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60761a38-e293-42cb-a40d-6fd2740ca03c")
-	)
-	(wire
-		(pts
 			(xy 240.03 95.25) (xy 252.73 95.25)
 		)
 		(stroke
@@ -4425,7 +4388,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 109.22) (xy 127 109.22)
+			(xy 157.48 110.49) (xy 140.97 110.49)
 		)
 		(stroke
 			(width 0)
@@ -4635,7 +4598,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 109.22) (xy 127 99.06)
+			(xy 140.97 110.49) (xy 140.97 106.68)
 		)
 		(stroke
 			(width 0)
@@ -4652,6 +4615,16 @@
 			(type default)
 		)
 		(uuid "8e987b77-0203-4e11-a5ef-5cdba71fcf87")
+	)
+	(wire
+		(pts
+			(xy 153.67 107.95) (xy 128.27 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f36815d-0665-42fb-9bc6-720c0cfd4c48")
 	)
 	(wire
 		(pts
@@ -4705,6 +4678,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 96.52) (xy 129.54 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a190d403-134e-4526-b394-7e074893a568")
+	)
+	(wire
+		(pts
 			(xy 210.82 52.07) (xy 214.63 52.07)
 		)
 		(stroke
@@ -4742,6 +4725,16 @@
 			(type default)
 		)
 		(uuid "a73e2240-cbd9-4c7c-ab54-d3e006601029")
+	)
+	(wire
+		(pts
+			(xy 158.75 101.6) (xy 170.18 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7c03b5b-a9bd-4da1-9f20-136bc0feeec3")
 	)
 	(wire
 		(pts
@@ -4785,13 +4778,23 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 127) (xy 157.48 109.22)
+			(xy 157.48 127) (xy 157.48 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b04d95e2-13bb-46ee-89c3-4aee172a6742")
+	)
+	(wire
+		(pts
+			(xy 129.54 92.71) (xy 158.75 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b270510b-e75f-44fb-b2be-99a11294e4d5")
 	)
 	(wire
 		(pts
@@ -4975,6 +4978,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 106.68) (xy 146.05 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1ff0594-5ea7-40f0-a4b7-b5eb058507c4")
+	)
+	(wire
+		(pts
 			(xy 248.92 45.72) (xy 252.73 45.72)
 		)
 		(stroke
@@ -5045,13 +5058,23 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 101.6) (xy 128.27 111.76)
+			(xy 128.27 107.95) (xy 128.27 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e0733a58-a115-495d-8b7e-c10e7512d62f")
+	)
+	(wire
+		(pts
+			(xy 130.81 109.22) (xy 130.81 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e092799f-33c8-4a21-a460-62eee884bf75")
 	)
 	(wire
 		(pts
@@ -5095,7 +5118,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 99.06) (xy 166.37 99.06)
+			(xy 133.35 111.76) (xy 166.37 111.76)
 		)
 		(stroke
 			(width 0)
@@ -5112,16 +5135,6 @@
 			(type default)
 		)
 		(uuid "f612de96-cb49-46e0-9b90-0f0c6b9fc7b5")
-	)
-	(wire
-		(pts
-			(xy 127 99.06) (xy 130.81 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f703c7b4-0ee2-4637-a7eb-bcd7a5ef6e92")
 	)
 	(wire
 		(pts
@@ -8909,167 +8922,6 @@
 		)
 	)
 	(symbol
-		(lib_id "DW01S:DW01S")
-		(at 130.81 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bb03b54a-0187-44d3-820d-e20bce583ac4")
-		(property "Reference" "IC1"
-			(at 143.51 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DW01S"
-			(at 143.51 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Composants_Perso:DW01S"
-			(at 152.4 193.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2408051436_GOODWORK-DW01S_C21713962.pdf"
-			(at 152.4 293.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "package-sot23"
-			(at 130.81 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.35"
-			(at 152.4 493.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Goodwork Semiconductor"
-			(at 152.4 593.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "DW01S"
-			(at 152.4 693.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 152.4 793.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 152.4 893.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 152.4 993.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 152.4 1093.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 130.81 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "e5ad6cb4-e869-43ec-8258-430a3cfc0419")
-		)
-		(pin "1"
-			(uuid "005aa2ae-eb85-4706-8e70-402e4a677da7")
-		)
-		(pin "2"
-			(uuid "abb9f422-2441-446c-a6a4-4beb70a359f8")
-		)
-		(pin "5"
-			(uuid "4417d843-881e-4f06-8d84-2f9bdd659c55")
-		)
-		(pin "3"
-			(uuid "476959ff-5d7d-4304-9a0f-8d8a29573fd9")
-		)
-		(pin "6"
-			(uuid "7da0c509-bc2e-4fde-ae94-e731b7644d74")
-		)
-		(instances
-			(project ""
-				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17/46b21e09-ea67-4534-a48d-e2dad69aede0"
-					(reference "IC1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 146.05 36.83 0)
 		(mirror y)
@@ -9295,6 +9147,94 @@
 			(project "Station_Meteo_pcb"
 				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17/46b21e09-ea67-4534-a48d-e2dad69aede0"
 					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battery_Management:DW01A")
+		(at 143.51 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cba2049a-8ff5-4bda-804b-aa8296313857")
+		(property "Reference" "U5"
+			(at 143.51 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DW01A"
+			(at 143.51 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 143.51 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://hmsemi.com/downfile/DW01A.PDF"
+			(at 143.51 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Overcharge, overcurrent and overdischarge protection IC for single cell lithium-ion/polymer battery"
+			(at 143.764 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C42380662"
+			(at 143.51 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "95c3c897-0c92-4bf2-bb08-927d6b3bc1ff")
+		)
+		(pin "6"
+			(uuid "71bc8715-5e98-4f60-af31-997f418e0ed0")
+		)
+		(pin "1"
+			(uuid "938d0a63-34b6-44cc-b5eb-9229eab079e0")
+		)
+		(pin "5"
+			(uuid "a619a41f-8361-47d7-a577-97f15def06d4")
+		)
+		(pin "2"
+			(uuid "3abfec12-80c0-40ae-83ac-1c2ed2f1889f")
+		)
+		(pin "4"
+			(uuid "d27f6aad-3d4a-4ec3-8436-8c61730fe642")
+		)
+		(instances
+			(project ""
+				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17/46b21e09-ea67-4534-a48d-e2dad69aede0"
+					(reference "U5")
 					(unit 1)
 				)
 			)

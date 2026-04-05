@@ -90,48 +90,6 @@
 		)
 	)
 	(sheet
-		(at 27.94 87.63)
-		(size 16.51 6.35)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "984e9888-fb5d-44c2-b921-2df7568952dd")
-		(property "Sheetname" "Debug"
-			(at 27.94 86.9184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Debug.kicad_sch"
-			(at 27.94 94.5646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Station_Meteo_pcb"
-				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17"
-					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 27.94 34.29)
 		(size 16.51 6.35)
 		(exclude_from_sim no)
@@ -174,7 +132,7 @@
 		)
 	)
 	(sheet
-		(at 27.94 100.33)
+		(at 27.94 88.9)
 		(size 16.51 6.35)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -190,7 +148,7 @@
 		)
 		(uuid "acdb258c-42de-401c-9111-59e7e388a012")
 		(property "Sheetname" "Connecteurs"
-			(at 27.94 99.6184 0)
+			(at 27.94 88.1884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -199,7 +157,7 @@
 			)
 		)
 		(property "Sheetfile" "Connecteurs.kicad_sch"
-			(at 27.94 107.2646 0)
+			(at 27.94 95.8346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
