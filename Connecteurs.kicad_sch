@@ -3367,9 +3367,9 @@
 		(at 36.83 80.01 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "52e8baad-5cae-4f57-a8b5-f83e70af48ba")
 		(property "Reference" "R20"
