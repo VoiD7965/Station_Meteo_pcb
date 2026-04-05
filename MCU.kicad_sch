@@ -2568,10 +2568,34 @@
 		(uuid "dbc8650a-2682-4f61-bb6b-c0b5c73ecc27")
 	)
 	(junction
-		(at 191.77 124.46)
+		(at 60.96 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "08418bd5-48dc-4dd3-9cdc-a684a50404b7")
+		(uuid "08325126-4ae6-49ae-b5d6-a1b8fde4fa1b")
+	)
+	(junction
+		(at 95.25 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1078af12-ce4e-4226-8a2d-66c69b1a9c3a")
+	)
+	(junction
+		(at 163.83 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "138b3c99-f721-4ccc-b393-7088b06c1ba4")
+	)
+	(junction
+		(at 166.37 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a5bb0a3-3c94-418e-b9d2-02996df55056")
+	)
+	(junction
+		(at 73.66 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32f87240-5c53-41dc-b121-a5fd210c7e29")
 	)
 	(junction
 		(at 185.42 46.99)
@@ -2592,6 +2616,18 @@
 		(uuid "493fc104-06bb-4293-aeae-3508d2069a33")
 	)
 	(junction
+		(at 33.02 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b59c441-e04d-4658-a011-0029a2e9dab5")
+	)
+	(junction
+		(at 87.63 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4de516b5-80d0-42f1-bd63-80ed181a46a4")
+	)
+	(junction
 		(at 142.24 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2604,10 +2640,40 @@
 		(uuid "6581b980-1940-4ae2-a4db-91ca7e16614e")
 	)
 	(junction
+		(at 45.72 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c726bbe-6ebe-47ee-9d5a-9b803cb74f35")
+	)
+	(junction
+		(at 133.35 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ca0cb38-944d-4645-8ef0-801c9ffba330")
+	)
+	(junction
 		(at 181.61 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "74412de3-8998-458a-a5fc-333d49b700c4")
+	)
+	(junction
+		(at 139.7 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "778f22ae-096a-40fe-9a27-b055ac4cc152")
+	)
+	(junction
+		(at 101.6 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79bd72f2-d656-45e4-bd1c-d055efd2222e")
+	)
+	(junction
+		(at 118.11 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c13c59e-0d4d-4dcd-9073-48e44f400f8b")
 	)
 	(junction
 		(at 151.13 124.46)
@@ -2622,10 +2688,28 @@
 		(uuid "89ee26f2-6238-41aa-874f-88fcf1c10282")
 	)
 	(junction
+		(at 116.84 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9012abdb-8795-471c-90dd-d6f72cf5264b")
+	)
+	(junction
 		(at 185.42 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "925ed8a8-7ce3-4d69-af1f-42bb33240a7a")
+	)
+	(junction
+		(at 72.39 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6f936ff-f7d2-4f8b-90e3-09402a3494a1")
+	)
+	(junction
+		(at 166.37 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af701007-e87a-4d4f-8c1d-8ab050ed53e5")
 	)
 	(junction
 		(at 72.39 132.08)
@@ -2644,6 +2728,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b3b3e2b3-d010-49e5-9535-ec33da2f4420")
+	)
+	(junction
+		(at 83.7626 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7a8a288-038e-423e-ab33-1ca88000ba4b")
 	)
 	(junction
 		(at 144.78 124.46)
@@ -2670,6 +2760,12 @@
 		(uuid "d71cf939-9bc0-43c3-86b3-40c8ce0df9ff")
 	)
 	(junction
+		(at 118.11 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb0070f3-e380-4fae-aa10-2f4bec0c2be3")
+	)
+	(junction
 		(at 114.3 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2682,6 +2778,12 @@
 		(uuid "f0a868c6-7766-433b-a6f4-9d5c9fe8c832")
 	)
 	(junction
+		(at 127 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1064ad8-59c9-4cb0-9d47-70e91589b025")
+	)
+	(junction
 		(at 72.39 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2692,6 +2794,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f663b935-5360-4095-b2cd-53ed1916e56b")
+	)
+	(junction
+		(at 191.77 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fade0a15-6df5-47b2-aef4-33482937c642")
 	)
 	(no_connect
 		(at 124.46 87.63)
@@ -2823,6 +2931,26 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 21.59) (xy 127 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "011dfbc9-454c-40ef-8011-5e0e32a9562c")
+	)
+	(wire
+		(pts
+			(xy 166.37 90.17) (xy 176.53 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01c58251-faa5-4242-9887-fe8986c0779a")
+	)
+	(wire
+		(pts
 			(xy 139.7 24.13) (xy 139.7 21.59)
 		)
 		(stroke
@@ -2833,6 +2961,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 21.59) (xy 139.7 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "089a54af-1bbd-46ff-8aeb-c6f14127fe23")
+	)
+	(wire
+		(pts
 			(xy 116.84 67.31) (xy 116.84 69.85)
 		)
 		(stroke
@@ -2840,6 +2978,36 @@
 			(type default)
 		)
 		(uuid "092398f3-a345-4c0c-802f-84be22804eac")
+	)
+	(wire
+		(pts
+			(xy 83.7626 120.65) (xy 95.25 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b828fed-f7ac-4ba7-a60d-4a5c1e7afa98")
+	)
+	(wire
+		(pts
+			(xy 95.25 120.65) (xy 134.62 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f234267-39f9-4d55-b893-f38a40eb1646")
+	)
+	(wire
+		(pts
+			(xy 72.39 102.87) (xy 73.66 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f99727e-aa25-4897-85da-0889833d9985")
 	)
 	(wire
 		(pts
@@ -2893,6 +3061,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 107.95) (xy 45.72 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2860a942-3cae-47ea-8307-a1c26b38f53d")
+	)
+	(wire
+		(pts
 			(xy 171.45 54.61) (xy 171.45 59.69)
 		)
 		(stroke
@@ -2913,6 +3091,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 87.63) (xy 170.18 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ba1e5ac-b2b1-4417-932f-d852d2d731f5")
+	)
+	(wire
+		(pts
 			(xy 167.64 69.85) (xy 167.64 72.39)
 		)
 		(stroke
@@ -2920,6 +3108,26 @@
 			(type default)
 		)
 		(uuid "2bab88bf-93d9-42ec-9f12-079c3831b4d2")
+	)
+	(wire
+		(pts
+			(xy 184.15 82.55) (xy 187.96 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3571a445-a859-45b0-8675-3d64df7c809e")
+	)
+	(wire
+		(pts
+			(xy 60.96 105.41) (xy 124.46 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37df1e9f-87c6-473f-b3e3-2b9ff1240839")
 	)
 	(wire
 		(pts
@@ -2953,6 +3161,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 20.32) (xy 133.35 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f87277f-d225-4c1b-9c38-fb80926b4436")
+	)
+	(wire
+		(pts
 			(xy 151.13 129.54) (xy 151.13 132.08)
 		)
 		(stroke
@@ -2963,7 +3181,17 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 120.65) (xy 134.62 120.65)
+			(xy 120.65 20.32) (xy 120.65 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46623210-5967-4c02-81ae-ec1956099322")
+	)
+	(wire
+		(pts
+			(xy 72.39 120.65) (xy 83.7626 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2993,7 +3221,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 90.17) (xy 170.18 90.17)
+			(xy 160.02 90.17) (xy 166.37 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3003,17 +3231,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 105.41) (xy 124.46 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50034e17-a95e-4065-8463-85204014a03a")
-	)
-	(wire
-		(pts
-			(xy 113.03 100.33) (xy 124.46 100.33)
+			(xy 86.36 100.33) (xy 87.63 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3033,6 +3251,26 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 49.53) (xy 118.11 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "553cf406-e0b7-4eff-9ab6-3ac025d802d1")
+	)
+	(wire
+		(pts
+			(xy 87.63 100.33) (xy 124.46 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "571378f4-4f4a-4e5d-b857-ea56c971c495")
+	)
+	(wire
+		(pts
 			(xy 171.45 59.69) (xy 185.42 59.69)
 		)
 		(stroke
@@ -3043,6 +3281,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 46.99) (xy 93.98 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59adc388-0aad-476d-9a91-592348ea82a0")
+	)
+	(wire
+		(pts
 			(xy 114.3 77.47) (xy 124.46 77.47)
 		)
 		(stroke
@@ -3050,6 +3298,26 @@
 			(type default)
 		)
 		(uuid "5dff97f3-4469-47db-9747-076d704617a4")
+	)
+	(wire
+		(pts
+			(xy 205.74 124.46) (xy 209.55 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6143b2c5-3f33-4497-9651-78cb7dc82647")
+	)
+	(wire
+		(pts
+			(xy 73.66 102.87) (xy 124.46 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "645680b2-6b0b-4d2a-973d-443a175f564e")
 	)
 	(wire
 		(pts
@@ -3080,16 +3348,6 @@
 			(type default)
 		)
 		(uuid "6bcfc309-613e-4a6d-bdf1-b21fa202d884")
-	)
-	(wire
-		(pts
-			(xy 113.03 49.53) (xy 124.46 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6df47bfd-6db4-478e-8e53-43bc898284e0")
 	)
 	(wire
 		(pts
@@ -3143,7 +3401,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 110.49) (xy 124.46 110.49)
+			(xy 31.75 110.49) (xy 33.02 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3160,6 +3418,16 @@
 			(type default)
 		)
 		(uuid "78393ee2-3145-4d88-8b00-01f2408ef2cf")
+	)
+	(wire
+		(pts
+			(xy 127 20.32) (xy 127 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7978d98b-4726-4753-a0ca-189cb4dd392f")
 	)
 	(wire
 		(pts
@@ -3180,6 +3448,16 @@
 			(type default)
 		)
 		(uuid "7ecfc7e4-a86c-4782-92eb-0c4faaadb2a3")
+	)
+	(wire
+		(pts
+			(xy 45.72 107.95) (xy 124.46 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fb91f73-39a0-4045-a432-ea4379365b74")
 	)
 	(wire
 		(pts
@@ -3253,6 +3531,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 95.25) (xy 124.46 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "931cc38d-23e4-4150-b028-127d26248477")
+	)
+	(wire
+		(pts
 			(xy 185.42 59.69) (xy 199.39 59.69)
 		)
 		(stroke
@@ -3263,7 +3551,17 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 95.25) (xy 124.46 95.25)
+			(xy 59.69 105.41) (xy 60.96 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93e001cb-07b4-4510-8ec9-d18f93c656a3")
+	)
+	(wire
+		(pts
+			(xy 113.03 95.25) (xy 116.84 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3303,6 +3601,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 97.79) (xy 124.46 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e037faf-b72e-4ce3-b5a5-b5bf68832d8f")
+	)
+	(wire
+		(pts
 			(xy 66.04 124.46) (xy 72.39 124.46)
 		)
 		(stroke
@@ -3310,6 +3618,26 @@
 			(type default)
 		)
 		(uuid "a0193d6a-8f31-4486-887b-551bb7a7ac5a")
+	)
+	(wire
+		(pts
+			(xy 184.15 90.17) (xy 187.96 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a76e8bfd-0f49-4212-89ca-ff4cefec5703")
+	)
+	(wire
+		(pts
+			(xy 191.77 124.46) (xy 198.12 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b392a347-123c-49ef-842d-bdbb2ec675f5")
 	)
 	(wire
 		(pts
@@ -3323,16 +3651,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 107.95) (xy 124.46 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7f1e7e4-a8fe-45cb-94f0-4b97e02b95ac")
-	)
-	(wire
-		(pts
 			(xy 116.84 69.85) (xy 124.46 69.85)
 		)
 		(stroke
@@ -3340,6 +3658,16 @@
 			(type default)
 		)
 		(uuid "b946126d-5620-4162-a6e3-23cc7ead5e12")
+	)
+	(wire
+		(pts
+			(xy 33.02 110.49) (xy 124.46 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baad230e-8106-4389-9b9c-dee30f9c451a")
 	)
 	(wire
 		(pts
@@ -3373,7 +3701,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 82.55) (xy 170.18 82.55)
+			(xy 160.02 82.55) (xy 163.83 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3403,16 +3731,6 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 124.46) (xy 199.39 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7287fb3-af6d-4f43-80f5-9b2f86f1c309")
-	)
-	(wire
-		(pts
 			(xy 171.45 129.54) (xy 171.45 132.08)
 		)
 		(stroke
@@ -3420,16 +3738,6 @@
 			(type default)
 		)
 		(uuid "c79f8946-9e4e-44a6-8491-0e5b1780e19f")
-	)
-	(wire
-		(pts
-			(xy 113.03 102.87) (xy 124.46 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c80ee781-32a4-4e43-998c-60b36d37b318")
 	)
 	(wire
 		(pts
@@ -3453,6 +3761,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 46.99) (xy 124.46 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cab50e00-1abf-45f8-8d4c-36c48e8db806")
+	)
+	(wire
+		(pts
 			(xy 161.29 129.54) (xy 161.29 132.08)
 		)
 		(stroke
@@ -3460,6 +3778,16 @@
 			(type default)
 		)
 		(uuid "cc928250-e7b3-4f96-9f34-01e6368132a4")
+	)
+	(wire
+		(pts
+			(xy 163.83 82.55) (xy 176.53 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccedb09e-6dbb-4b36-bde7-c5c592b41ba3")
 	)
 	(wire
 		(pts
@@ -3473,6 +3801,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 21.59) (xy 133.35 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf6076c8-aed1-47d4-a957-767a707788e0")
+	)
+	(wire
+		(pts
 			(xy 171.45 52.07) (xy 171.45 46.99)
 		)
 		(stroke
@@ -3483,6 +3821,26 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 46.99) (xy 118.11 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d226a9e3-d6de-4fb7-aa38-d5bc4983771b")
+	)
+	(wire
+		(pts
+			(xy 118.11 49.53) (xy 124.46 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7b85bc9-2f8f-4c35-bc8d-aa4d163286a4")
+	)
+	(wire
+		(pts
 			(xy 142.24 21.59) (xy 142.24 24.13)
 		)
 		(stroke
@@ -3490,16 +3848,6 @@
 			(type default)
 		)
 		(uuid "d7e0d684-4e6e-40bc-95c5-ad3a1410f104")
-	)
-	(wire
-		(pts
-			(xy 113.03 46.99) (xy 124.46 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d97c31e5-ed8a-4b74-8916-3427f13e99db")
 	)
 	(wire
 		(pts
@@ -3533,6 +3881,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 87.63) (xy 187.96 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4993026-f91d-4c94-b9d8-4f0b3a07df38")
+	)
+	(wire
+		(pts
 			(xy 114.3 31.75) (xy 116.84 31.75)
 		)
 		(stroke
@@ -3553,13 +3911,23 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 87.63) (xy 170.18 87.63)
+			(xy 160.02 87.63) (xy 166.37 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ed616105-a748-4766-b01f-f563d7f555c7")
+	)
+	(wire
+		(pts
+			(xy 90.17 49.53) (xy 105.41 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef140c7b-57d0-4a58-82a6-cac996385abc")
 	)
 	(wire
 		(pts
@@ -3613,7 +3981,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 97.79) (xy 124.46 97.79)
+			(xy 100.33 97.79) (xy 101.6 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3645,7 +4013,7 @@
 	)
 	(global_label "EPD_BUSY"
 		(shape input)
-		(at 113.03 105.41 180)
+		(at 59.69 105.41 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3655,7 +4023,7 @@
 		)
 		(uuid "0ab39508-8657-49a2-b0ce-0ef144d6991c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.4896 105.41 0)
+			(at 47.1496 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3689,7 +4057,7 @@
 	)
 	(global_label "EPD_DC"
 		(shape input)
-		(at 113.03 107.95 180)
+		(at 44.45 107.95 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3699,7 +4067,7 @@
 		)
 		(uuid "27a08fcc-7afc-462c-9ded-d2dea69dc13c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.8482 107.95 0)
+			(at 34.2682 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3711,7 +4079,7 @@
 	)
 	(global_label "EPD_CS"
 		(shape input)
-		(at 113.03 102.87 180)
+		(at 72.39 102.87 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3721,7 +4089,7 @@
 		)
 		(uuid "3924fc43-667a-49d2-bee2-e78d757361d9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.9087 102.87 0)
+			(at 62.2687 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3755,7 +4123,7 @@
 	)
 	(global_label "MEASURE_BATTERY"
 		(shape input)
-		(at 170.18 82.55 0)
+		(at 187.96 82.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3765,7 +4133,7 @@
 		)
 		(uuid "7995714f-ba60-4d5b-9240-b211aa4c73a6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.5822 82.55 0)
+			(at 208.3622 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3777,7 +4145,7 @@
 	)
 	(global_label "CMD_ALIM_SCREEN"
 		(shape input)
-		(at 170.18 90.17 0)
+		(at 187.96 90.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3787,7 +4155,7 @@
 		)
 		(uuid "92c789b9-7d1a-48d9-bd01-6d8e40c2a20f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.6427 90.17 0)
+			(at 208.4227 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3799,7 +4167,7 @@
 	)
 	(global_label "CMD_ALIM_BATTERY"
 		(shape input)
-		(at 170.18 87.63 0)
+		(at 187.96 87.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3809,7 +4177,7 @@
 		)
 		(uuid "94200971-b763-4d97-8ddc-54a2cc7c1110")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 191.0661 87.63 0)
+			(at 208.8461 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3821,7 +4189,7 @@
 	)
 	(global_label "SCL"
 		(shape input)
-		(at 113.03 49.53 180)
+		(at 90.17 49.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3831,7 +4199,7 @@
 		)
 		(uuid "9ca733f1-d698-4f03-9c77-c599f43c6ae1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.5372 49.53 0)
+			(at 83.6772 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3843,7 +4211,7 @@
 	)
 	(global_label "EPD_SCK"
 		(shape input)
-		(at 113.03 100.33 180)
+		(at 86.36 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3853,7 +4221,7 @@
 		)
 		(uuid "9ed04c97-ca0a-462f-90f3-d656ca06b700")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.6387 100.33 0)
+			(at 74.9687 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3865,7 +4233,7 @@
 	)
 	(global_label "SDA"
 		(shape input)
-		(at 113.03 46.99 180)
+		(at 90.17 46.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3875,7 +4243,7 @@
 		)
 		(uuid "b959e453-e1a7-4a82-a61c-4a726cbcb9da")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.4767 46.99 0)
+			(at 83.6167 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3887,7 +4255,7 @@
 	)
 	(global_label "EPD_RST"
 		(shape input)
-		(at 113.03 110.49 180)
+		(at 31.75 110.49 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3897,7 +4265,7 @@
 		)
 		(uuid "bfa104d5-84ca-4261-8964-42d9bcc16ee3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.9411 110.49 0)
+			(at 20.6611 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3997,7 +4365,7 @@
 	)
 	(global_label "EPD_PWR"
 		(shape input)
-		(at 113.03 97.79 180)
+		(at 100.33 97.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4007,13 +4375,89 @@
 		)
 		(uuid "f13ec476-14db-4e2a-b515-406db2ac6f62")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.3968 97.79 0)
+			(at 88.6968 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 118.11 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0086085d-1258-4afc-afd5-9229a7c22d9a")
+		(property "Reference" "TP13"
+			(at 116.586 41.148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 106.68 43.434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 118.11 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 118.11 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8a59267-7099-41c2-9734-cc5fddfcc173")
+		)
+		(instances
+			(project "Station_Meteo_pcb"
+				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17/9ce3ae06-c5cc-4000-b6d8-5ae3d540ff9d"
+					(reference "TP13")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -4096,6 +4540,158 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 173.99 87.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "08039c7b-6b21-42a5-a7e9-bf8308e48c0a")
+		(property "Reference" "R30"
+			(at 173.99 83.312 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 173.99 85.344 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 89.408 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 173.99 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C21189"
+			(at 173.99 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2362592c-e1bf-4379-949c-d1f1f962d173")
+		)
+		(pin "2"
+			(uuid "60c458d7-55cd-438c-ab2d-c3aa196e6c25")
+		)
+		(instances
+			(project "Station_Meteo_pcb"
+				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17/9ce3ae06-c5cc-4000-b6d8-5ae3d540ff9d"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 95.25 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0c6df6de-c247-42a4-af38-96de960338d8")
+		(property "Reference" "TP20"
+			(at 96.774 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 83.82 117.094 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 95.25 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 95.25 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "722f5a8c-9973-4f4d-a0be-a84b6523f6ae")
+		)
+		(instances
+			(project "Station_Meteo_pcb"
+				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17/9ce3ae06-c5cc-4000-b6d8-5ae3d540ff9d"
+					(reference "TP20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 165.1 115.57 0)
 		(unit 1)
@@ -4168,6 +4764,82 @@
 			(project ""
 				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17/9ce3ae06-c5cc-4000-b6d8-5ae3d540ff9d"
 					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 72.39 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "14cbe419-e242-4d89-b145-f694e9273fca")
+		(property "Reference" "TP18"
+			(at 73.914 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 60.96 117.094 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 72.39 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 72.39 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91fcb8ed-743f-4769-92e6-4c6834c67a3e")
+		)
+		(instances
+			(project "Station_Meteo_pcb"
+				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17/9ce3ae06-c5cc-4000-b6d8-5ae3d540ff9d"
+					(reference "TP18")
 					(unit 1)
 				)
 			)
@@ -4518,6 +5190,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 60.96 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1b361f09-37b0-4bcc-9412-0cd12fcdc11c")
+		(property "Reference" "TP10"
+			(at 59.436 99.568 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 49.53 101.854 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 60.96 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 60.96 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "046e40b5-97d9-4eaf-93a3-3555b447474d")
+		)
+		(instances
+			(project "Station_Meteo_pcb"
+				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17/9ce3ae06-c5cc-4000-b6d8-5ae3d540ff9d"
+					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 166.37 104.14 0)
 		(unit 1)
@@ -4793,8 +5541,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 180.34 90.17 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "37b42895-526d-4c77-8f48-2a2a703f541b")
+		(property "Reference" "R31"
+			(at 180.34 94.488 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 180.34 92.456 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 88.392 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 180.34 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C21189"
+			(at 180.34 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed95305f-05af-4f56-ac1d-ebc68fe4c510")
+		)
+		(pin "2"
+			(uuid "c0dda7d0-d6d7-4729-b960-a1fb6804f1d9")
+		)
+		(instances
+			(project "Station_Meteo_pcb"
+				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17/9ce3ae06-c5cc-4000-b6d8-5ae3d540ff9d"
+					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
-		(at 199.39 124.46 270)
+		(at 209.55 124.46 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4802,7 +5626,7 @@
 		(dnp no)
 		(uuid "40862e9b-8444-46e2-b1a2-a97347bb7d58")
 		(property "Reference" "#PWR011"
-			(at 195.58 124.46 0)
+			(at 205.74 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4811,7 +5635,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 203.2 124.4599 90)
+			(at 213.36 124.4599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4820,7 +5644,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 199.39 124.46 0)
+			(at 209.55 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4829,7 +5653,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 124.46 0)
+			(at 209.55 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4838,7 +5662,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 199.39 124.46 0)
+			(at 209.55 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4948,6 +5772,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -5727,7 +6552,7 @@
 		(dnp no)
 		(uuid "7ccf8efc-3602-4507-95ed-430e6658a93c")
 		(property "Reference" "TP2"
-			(at 166.37 109.2199 90)
+			(at 166.37 110.744 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5818,6 +6643,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -5863,6 +6689,158 @@
 			(project "Station_Meteo_pcb"
 				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17/9ce3ae06-c5cc-4000-b6d8-5ae3d540ff9d"
 					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 133.35 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "81dbd9a9-3d36-4d2e-9425-cc506ced118e")
+		(property "Reference" "TP22"
+			(at 131.318 14.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 121.92 16.764 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 133.35 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 133.35 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ef6fe4f-8cf7-46c4-a473-56482f7b8080")
+		)
+		(instances
+			(project "Station_Meteo_pcb"
+				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17/9ce3ae06-c5cc-4000-b6d8-5ae3d540ff9d"
+					(reference "TP22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 87.63 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8cb908ac-820f-4426-b861-9626443e3a76")
+		(property "Reference" "TP8"
+			(at 86.106 94.488 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 76.2 96.774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 87.63 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 87.63 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0982c1d9-3de1-4a8f-952b-1bb939e1a85a")
+		)
+		(instances
+			(project "Station_Meteo_pcb"
+				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17/9ce3ae06-c5cc-4000-b6d8-5ae3d540ff9d"
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -5941,6 +6919,234 @@
 			(project "Station_Meteo_pcb"
 				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17/9ce3ae06-c5cc-4000-b6d8-5ae3d540ff9d"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 180.34 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f33b651-f376-487d-b330-cf1f204b6f02")
+		(property "Reference" "R27"
+			(at 180.34 78.232 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 180.34 80.264 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 84.328 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 180.34 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C21189"
+			(at 180.34 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36da13d7-5364-40de-aa04-754b68fa5e39")
+		)
+		(pin "2"
+			(uuid "29d17b4e-b4fb-4764-beda-b8e9d6349e48")
+		)
+		(instances
+			(project "Station_Meteo_pcb"
+				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17/9ce3ae06-c5cc-4000-b6d8-5ae3d540ff9d"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 109.22 49.53 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "93746669-5c98-410c-8ad8-cf8ffb630c85")
+		(property "Reference" "R33"
+			(at 109.22 53.848 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 109.22 51.816 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 47.752 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 109.22 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C21189"
+			(at 109.22 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "29cdda7f-d11e-420b-bce0-a9397bface89")
+		)
+		(pin "2"
+			(uuid "bb7496a9-fcd1-4243-afc6-e01854134ae8")
+		)
+		(instances
+			(project "Station_Meteo_pcb"
+				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17/9ce3ae06-c5cc-4000-b6d8-5ae3d540ff9d"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 97.79 46.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "93841fb0-6647-4d90-afdb-0d77697d803a")
+		(property "Reference" "R32"
+			(at 97.79 42.672 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 97.79 44.704 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 48.768 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 97.79 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C21189"
+			(at 97.79 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a59bca2-e845-44b5-bc35-a908e0e7a377")
+		)
+		(pin "2"
+			(uuid "def526fc-880e-437d-b016-63033c262c0f")
+		)
+		(instances
+			(project "Station_Meteo_pcb"
+				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17/9ce3ae06-c5cc-4000-b6d8-5ae3d540ff9d"
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -6221,6 +7427,158 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 166.37 90.17 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ace3ac3c-c132-4a08-a337-6f58ecd9fd0a")
+		(property "Reference" "TP17"
+			(at 172.72 93.218 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 177.8 93.726 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 166.37 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 166.37 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bbb95e87-e3cb-4741-9757-3a2a7a4e5640")
+		)
+		(instances
+			(project "Station_Meteo_pcb"
+				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17/9ce3ae06-c5cc-4000-b6d8-5ae3d540ff9d"
+					(reference "TP17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 73.66 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b223b097-a079-4bac-b275-c34ab86beb31")
+		(property "Reference" "TP9"
+			(at 72.136 97.028 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 62.23 99.314 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 73.66 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 73.66 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b662c21f-58dc-4c05-a74b-6ea106b04887")
+		)
+		(instances
+			(project "Station_Meteo_pcb"
+				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17/9ce3ae06-c5cc-4000-b6d8-5ae3d540ff9d"
+					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 161.29 127 0)
 		(unit 1)
@@ -6300,6 +7658,462 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 33.02 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bd4d424e-e1af-4660-8c7e-2d8abbf31d5d")
+		(property "Reference" "TP12"
+			(at 31.496 104.648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 21.59 106.934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 33.02 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 33.02 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b5368ab1-ac0f-4657-b531-1d7c7fdecbb3")
+		)
+		(instances
+			(project "Station_Meteo_pcb"
+				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17/9ce3ae06-c5cc-4000-b6d8-5ae3d540ff9d"
+					(reference "TP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 166.37 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c9e88ccc-1b3d-4e39-a12d-31e7331d621c")
+		(property "Reference" "TP16"
+			(at 161.036 86.106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 154.94 84.074 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 166.37 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 166.37 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc939613-5ceb-4f5c-bb44-6cc57b5cc475")
+		)
+		(instances
+			(project "Station_Meteo_pcb"
+				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17/9ce3ae06-c5cc-4000-b6d8-5ae3d540ff9d"
+					(reference "TP16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 163.83 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ce8e4d5b-5ecc-46ff-8fb4-c8fdbeadc9c4")
+		(property "Reference" "TP15"
+			(at 162.306 76.708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 152.4 78.994 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 163.83 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 163.83 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bbf6e46e-8e30-4ad0-b042-d1e63fcd8e55")
+		)
+		(instances
+			(project "Station_Meteo_pcb"
+				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17/9ce3ae06-c5cc-4000-b6d8-5ae3d540ff9d"
+					(reference "TP15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 201.93 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d15c56ae-2bbc-4302-b806-cc1596c8dc05")
+		(property "Reference" "R34"
+			(at 201.93 120.142 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 201.93 122.174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 126.238 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 201.93 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C21189"
+			(at 201.93 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c31ca7f8-0359-40be-9147-8e59f2293c7e")
+		)
+		(pin "2"
+			(uuid "ba4b9b50-d1ff-414c-9258-9f8f38dc3f90")
+		)
+		(instances
+			(project "Station_Meteo_pcb"
+				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17/9ce3ae06-c5cc-4000-b6d8-5ae3d540ff9d"
+					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 118.11 49.53 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d241d4a5-2d8f-4d7d-a9cb-ff25ac569d42")
+		(property "Reference" "TP14"
+			(at 119.634 55.372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 129.54 53.086 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 118.11 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 118.11 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9591edeb-890d-4957-9c89-413ac178ff9f")
+		)
+		(instances
+			(project "Station_Meteo_pcb"
+				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17/9ce3ae06-c5cc-4000-b6d8-5ae3d540ff9d"
+					(reference "TP14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 120.65 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d3d201fb-c28c-4945-972e-fc9d1e55a92f")
+		(property "Reference" "TP23"
+			(at 118.618 14.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 109.22 16.764 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 120.65 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 120.65 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e2116f43-7919-4b31-b8b8-d8882ea33480")
+		)
+		(instances
+			(project "Station_Meteo_pcb"
+				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17/9ce3ae06-c5cc-4000-b6d8-5ae3d540ff9d"
+					(reference "TP23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 172.72 107.95 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6324,6 +8138,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -6369,6 +8184,82 @@
 			(project ""
 				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17/9ce3ae06-c5cc-4000-b6d8-5ae3d540ff9d"
 					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 83.7626 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dbcf61ad-9c3c-4f1c-8b77-87b2b28cf158")
+		(property "Reference" "TP19"
+			(at 85.2866 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 72.3326 117.094 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.8426 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.8426 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 83.7626 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 83.7626 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d58a21e-0256-4c66-9f2e-d1d385b91ab6")
+		)
+		(instances
+			(project "Station_Meteo_pcb"
+				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17/9ce3ae06-c5cc-4000-b6d8-5ae3d540ff9d"
+					(reference "TP19")
 					(unit 1)
 				)
 			)
@@ -6447,6 +8338,234 @@
 			(project "Station_Meteo_pcb"
 				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17/9ce3ae06-c5cc-4000-b6d8-5ae3d540ff9d"
 					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 45.72 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dc2a5ff4-c427-4b08-98b3-90c3d9b47eb2")
+		(property "Reference" "TP11"
+			(at 44.196 102.108 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 34.29 104.394 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 45.72 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 45.72 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "12abd99c-b5c8-4c40-85bc-0bf2aea705f4")
+		)
+		(instances
+			(project "Station_Meteo_pcb"
+				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17/9ce3ae06-c5cc-4000-b6d8-5ae3d540ff9d"
+					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 101.6 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dc63979e-a0a9-41d8-8b8e-bf6fa0507bd5")
+		(property "Reference" "TP7"
+			(at 100.076 91.948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 90.17 94.234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 101.6 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 101.6 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da5aa886-e651-42d9-896a-93a5c78d5f1a")
+		)
+		(instances
+			(project "Station_Meteo_pcb"
+				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17/9ce3ae06-c5cc-4000-b6d8-5ae3d540ff9d"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 116.84 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e14b15b7-1408-4744-bb82-de519eca8179")
+		(property "Reference" "TP6"
+			(at 115.316 89.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 105.41 91.694 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 116.84 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 116.84 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd7b18a2-2480-44fc-8657-636cf094ed4c")
+		)
+		(instances
+			(project "Station_Meteo_pcb"
+				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17/9ce3ae06-c5cc-4000-b6d8-5ae3d540ff9d"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -6621,6 +8740,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -6731,6 +8851,82 @@
 			(project "Station_Meteo_pcb"
 				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17/9ce3ae06-c5cc-4000-b6d8-5ae3d540ff9d"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 127 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fd7bf6de-236e-4003-bf24-7af589d40061")
+		(property "Reference" "TP21"
+			(at 124.968 14.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 115.57 16.764 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 127 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 127 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "78eb5c83-368e-4b58-a8a7-cc5841d94b69")
+		)
+		(instances
+			(project "Station_Meteo_pcb"
+				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17/9ce3ae06-c5cc-4000-b6d8-5ae3d540ff9d"
+					(reference "TP21")
 					(unit 1)
 				)
 			)
