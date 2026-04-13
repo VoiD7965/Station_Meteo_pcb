@@ -5040,7 +5040,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C42462827"
 			(at 219.71 44.45 0)
 			(effects
 				(font
@@ -5126,7 +5126,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Composants_Perso:Connector_GT-USB-7002A"
+		(property "Footprint" "Composants_Perso:UC18-0B06F68011"
 			(at 60.96 41.91 0)
 			(effects
 				(font
@@ -5153,7 +5153,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C963365"
 			(at 57.15 44.45 0)
 			(effects
 				(font
@@ -6050,7 +6050,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Composants_Perso:BH-18650-4"
 			(at 106.68 106.426 90)
 			(effects
 				(font

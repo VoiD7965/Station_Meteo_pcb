@@ -5984,6 +5984,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Composants_Perso:Connector_24P_epaper"
@@ -6013,7 +6014,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C7419878"
 			(at 200.66 60.96 0)
 			(effects
 				(font

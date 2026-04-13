@@ -6404,7 +6404,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Composants_Perso:SPM4030T-R47M-HZ"
 			(at 99.06 50.8 0)
 			(effects
 				(font
