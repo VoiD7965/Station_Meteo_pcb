@@ -1,0 +1,152 @@
+(footprint "SCF6125F2A250V"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5bbc8565-898b-4999-bbbf-ec9604d4bdb5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SCF6125F2A250V"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d68ddad4-1671-4790-842d-79b34a643e76")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "911a7ead-d3bf-4657-827b-aa25891fd0fd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8d2439e8-34db-42d3-8c4c-6ec15ed88895")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -5 -2)
+		(end -5 2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8b94044e-7ad4-4a41-8908-7fed6c0aab5c")
+	)
+	(fp_line
+		(start -5 -2)
+		(end -2 -2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "68c9b2fb-b141-47b1-9257-92e9a0d01d87")
+	)
+	(fp_line
+		(start -5 2)
+		(end -2 2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d54cea14-2ea2-40d3-aeb8-1b18d1849cc0")
+	)
+	(fp_line
+		(start -2 -2)
+		(end -5 -2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "64054d02-0fa5-4932-afec-fa7a63e8b5fc")
+	)
+	(fp_line
+		(start 2 -2)
+		(end 5 -2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c89674d8-b779-49a3-adb5-80624d7a0692")
+	)
+	(fp_line
+		(start 5 -2)
+		(end 5 2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fa43dcfc-c63d-4da6-8616-324c42d25507")
+	)
+	(fp_line
+		(start 5 2)
+		(end 2 2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "119d4af3-06a2-4058-be6c-895d3c37b155")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f8f9a29f-857b-4525-a435-fc3fb4df271c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -3 0)
+		(size 2.5 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a4ed065a-dd98-4177-a00c-cac1e0451bcb")
+	)
+	(pad "2" smd rect
+		(at 3 0)
+		(size 2.5 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "39fc15b3-acce-440a-8081-4855fb156118")
+	)
+	(embedded_fonts no)
+)
