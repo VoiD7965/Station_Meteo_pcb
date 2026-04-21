@@ -7441,7 +7441,7 @@
 			(net 3 "GND")
 			(pinfunction "Pin_17")
 			(pintype "passive")
-			(uuid "1c94a1f4-dcdd-49ca-9828-b88eabc27914")
+			(uuid "e929c291-d658-426e-a9c5-4b674c669a30")
 		)
 		(pad "17" smd roundrect
 			(at 7.3 0.44 270)
@@ -7451,7 +7451,7 @@
 			(net 3 "GND")
 			(pinfunction "Pin_17")
 			(pintype "passive")
-			(uuid "1c94a1f4-dcdd-49ca-9828-b88eabc27914")
+			(uuid "9908a580-c01d-4957-a088-a2cbc0eab276")
 		)
 		(pad "18" smd roundrect
 			(at -2.75 -3.06 270)
@@ -32101,7 +32101,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "db350b96-067e-47b5-a484-89f0a463004c")
-		(at 190.175 113)
+		(at 191 107.1)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R25"
