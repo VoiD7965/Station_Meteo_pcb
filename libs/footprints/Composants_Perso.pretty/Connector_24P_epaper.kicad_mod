@@ -125,17 +125,6 @@
 		(uuid "63564ff5-ffea-452d-afe0-433d3370dc38")
 	)
 	(fp_rect
-		(start -8.82 -3.91)
-		(end 8.67 3.15)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill no)
-		(layer "Margin")
-		(uuid "d9dae6ab-caa8-45ae-98e1-9fb73303bb70")
-	)
-	(fp_rect
 		(start -7.75 -2.825)
 		(end 7.75 2.825)
 		(stroke
