@@ -1062,7 +1062,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 95.25) (xy 189.23 95.25)
+			(xy 181.61 95.25) (xy 196.85 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1102,7 +1102,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 90.17) (xy 189.23 90.17)
+			(xy 167.64 90.17) (xy 196.85 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1119,6 +1119,16 @@
 			(type default)
 		)
 		(uuid "68d668cf-d894-4589-877a-584bdf10bd3b")
+	)
+	(wire
+		(pts
+			(xy 189.23 100.33) (xy 189.23 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d891806-c116-454c-ae60-3423fef382d8")
 	)
 	(wire
 		(pts
@@ -1202,6 +1212,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 77.47) (xy 142.24 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98addd88-beea-41f7-9116-3a36cf352353")
+	)
+	(wire
+		(pts
 			(xy 137.16 77.47) (xy 142.24 77.47)
 		)
 		(stroke
@@ -1282,7 +1302,7 @@
 	)
 	(global_label "SCL"
 		(shape input)
-		(at 189.23 90.17 0)
+		(at 196.85 90.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1292,7 +1312,7 @@
 		)
 		(uuid "5feebb27-a24b-4891-a89d-7527574dabf6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.7228 90.17 0)
+			(at 203.3428 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1304,7 +1324,7 @@
 	)
 	(global_label "SDA"
 		(shape input)
-		(at 189.23 95.25 0)
+		(at 196.85 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1314,7 +1334,7 @@
 		)
 		(uuid "b5274962-59bc-4ac6-ab4a-0f5baa7cf93d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.7833 95.25 0)
+			(at 203.4033 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1659,72 +1679,6 @@
 			(project "Station_Meteo_pcb"
 				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17/d62bceb2-9908-4d7c-aad2-bbefb30f6285"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 189.23 100.33 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4fa1f78b-89c3-4ba2-86ad-e77c540147cb")
-		(property "Reference" "#PWR05"
-			(at 185.42 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 193.04 100.3299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 189.23 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0062bfa9-9ed2-4535-a2e4-089b19fbed59")
-		)
-		(instances
-			(project "Station_Meteo_pcb"
-				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17/d62bceb2-9908-4d7c-aad2-bbefb30f6285"
-					(reference "#PWR05")
 					(unit 1)
 				)
 			)

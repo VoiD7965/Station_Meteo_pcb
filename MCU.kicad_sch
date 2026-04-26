@@ -2727,10 +2727,28 @@
 		(uuid "138b3c99-f721-4ccc-b393-7088b06c1ba4")
 	)
 	(junction
+		(at 81.28 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d7efa51-8ca4-4be8-b2b3-f386732a8d78")
+	)
+	(junction
+		(at 139.7 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "391cc560-c49f-41c5-9a44-e8edf948ce98")
+	)
+	(junction
 		(at 185.42 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3e25e314-9a21-4e04-b14d-b7fb3312a56a")
+	)
+	(junction
+		(at 137.16 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3eef298f-e08d-4579-91cc-1ac958010e14")
 	)
 	(junction
 		(at 83.82 120.65)
@@ -2799,6 +2817,12 @@
 		(uuid "925ed8a8-7ce3-4d69-af1f-42bb33240a7a")
 	)
 	(junction
+		(at 105.41 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "966c2a24-5666-45a4-8826-0f22b89c1a28")
+	)
+	(junction
 		(at 72.39 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2821,12 +2845,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "afe07fd8-c2ef-4ed8-a03c-cf2388c66c67")
-	)
-	(junction
-		(at 105.41 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b321cae0-b0b5-4f7c-a466-62694d2729a1")
 	)
 	(junction
 		(at 167.64 72.39)
@@ -3080,6 +3098,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 124.46) (xy 139.7 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d9eb495-8f6c-4f76-b8c7-77fe39a4e021")
+	)
+	(wire
+		(pts
 			(xy 95.25 120.65) (xy 134.62 120.65)
 		)
 		(stroke
@@ -3277,6 +3305,16 @@
 			(type default)
 		)
 		(uuid "4a22efc0-f34b-488d-a7b1-fbe64a7ae052")
+	)
+	(wire
+		(pts
+			(xy 81.28 124.46) (xy 105.41 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a6d1b22-e45b-4026-8471-34f199044b45")
 	)
 	(wire
 		(pts
@@ -3627,16 +3665,6 @@
 			(type default)
 		)
 		(uuid "9e037faf-b72e-4ce3-b5a5-b5bf68832d8f")
-	)
-	(wire
-		(pts
-			(xy 66.04 124.46) (xy 72.39 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0193d6a-8f31-4486-887b-551bb7a7ac5a")
 	)
 	(wire
 		(pts
@@ -4091,6 +4119,28 @@
 		(uuid "41408dc1-627c-4c7f-9b1e-4f123ded60f0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 103.8158 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3v3s"
+		(shape input)
+		(at 130.81 124.46 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4adc52ec-5a19-4dfd-8594-220d384045dd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 130.81 131.8599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6068,72 +6118,6 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 66.04 124.46 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "379a7b96-62de-4b5a-abe2-ba73c22e3b37")
-		(property "Reference" "#PWR013"
-			(at 69.85 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 62.23 124.4601 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 66.04 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "77e77f27-01ea-4436-bf64-e53b27aee6be")
-		)
-		(instances
-			(project "Station_Meteo_pcb"
-				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17/9ce3ae06-c5cc-4000-b6d8-5ae3d540ff9d"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
 		(at 209.55 124.46 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6603,72 +6587,6 @@
 			(project "Station_Meteo_pcb"
 				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17/9ce3ae06-c5cc-4000-b6d8-5ae3d540ff9d"
 					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 105.41 124.46 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5d7d0870-bea4-4bb0-b2bd-f6fa6202b947")
-		(property "Reference" "#PWR012"
-			(at 109.22 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 101.6 124.4601 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 105.41 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 105.41 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7a6ceda8-3b32-4079-b9f5-1e161e1c8205")
-		)
-		(instances
-			(project "Station_Meteo_pcb"
-				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17/9ce3ae06-c5cc-4000-b6d8-5ae3d540ff9d"
-					(reference "#PWR012")
 					(unit 1)
 				)
 			)
