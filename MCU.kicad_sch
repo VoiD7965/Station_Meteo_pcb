@@ -2715,12 +2715,6 @@
 		(uuid "dbc8650a-2682-4f61-bb6b-c0b5c73ecc27")
 	)
 	(junction
-		(at 60.96 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "08325126-4ae6-49ae-b5d6-a1b8fde4fa1b")
-	)
-	(junction
 		(at 95.25 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2731,18 +2725,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "138b3c99-f721-4ccc-b393-7088b06c1ba4")
-	)
-	(junction
-		(at 166.37 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2a5bb0a3-3c94-418e-b9d2-02996df55056")
-	)
-	(junction
-		(at 73.66 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "32f87240-5c53-41dc-b121-a5fd210c7e29")
 	)
 	(junction
 		(at 185.42 46.99)
@@ -2763,18 +2745,6 @@
 		(uuid "46f1c0f5-5561-447d-82ce-6f361e41cef2")
 	)
 	(junction
-		(at 33.02 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4b59c441-e04d-4658-a011-0029a2e9dab5")
-	)
-	(junction
-		(at 87.63 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4de516b5-80d0-42f1-bd63-80ed181a46a4")
-	)
-	(junction
 		(at 142.24 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2785,12 +2755,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6581b980-1940-4ae2-a4db-91ca7e16614e")
-	)
-	(junction
-		(at 45.72 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6c726bbe-6ebe-47ee-9d5a-9b803cb74f35")
 	)
 	(junction
 		(at 133.35 21.59)
@@ -2811,12 +2775,6 @@
 		(uuid "778f22ae-096a-40fe-9a27-b055ac4cc152")
 	)
 	(junction
-		(at 101.6 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "79bd72f2-d656-45e4-bd1c-d055efd2222e")
-	)
-	(junction
 		(at 118.11 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2833,12 +2791,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "89ee26f2-6238-41aa-874f-88fcf1c10282")
-	)
-	(junction
-		(at 116.84 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9012abdb-8795-471c-90dd-d6f72cf5264b")
 	)
 	(junction
 		(at 185.42 59.69)
@@ -2983,6 +2935,10 @@
 		(uuid "1c458ccf-f275-4a18-a7ac-9fdaa66d7e4b")
 	)
 	(no_connect
+		(at 160.02 90.17)
+		(uuid "1e95f2fd-bb44-4ab1-b120-35786da3791b")
+	)
+	(no_connect
 		(at 124.46 41.91)
 		(uuid "2b562367-e966-4215-973b-18f24008e792")
 	)
@@ -3094,16 +3050,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 90.17) (xy 187.96 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01c58251-faa5-4242-9887-fe8986c0779a")
-	)
-	(wire
-		(pts
 			(xy 139.7 24.13) (xy 139.7 21.59)
 		)
 		(stroke
@@ -3144,7 +3090,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 102.87) (xy 73.66 102.87)
+			(xy 113.03 102.87) (xy 124.46 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3204,7 +3150,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 107.95) (xy 45.72 107.95)
+			(xy 113.03 107.95) (xy 124.46 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3254,7 +3200,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 105.41) (xy 124.46 105.41)
+			(xy 113.03 105.41) (xy 124.46 105.41)
 		)
 		(stroke
 			(width 0)
@@ -3354,26 +3300,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 90.17) (xy 166.37 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ebfeb16-75e0-4735-bf6b-c9a20b9b9931")
-	)
-	(wire
-		(pts
-			(xy 86.36 100.33) (xy 87.63 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5007ca56-bffa-4778-8674-d96ff84c7520")
-	)
-	(wire
-		(pts
 			(xy 140.97 21.59) (xy 142.24 21.59)
 		)
 		(stroke
@@ -3394,7 +3320,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 100.33) (xy 124.46 100.33)
+			(xy 113.03 100.33) (xy 124.46 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3431,16 +3357,6 @@
 			(type default)
 		)
 		(uuid "5dff97f3-4469-47db-9747-076d704617a4")
-	)
-	(wire
-		(pts
-			(xy 73.66 102.87) (xy 124.46 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "645680b2-6b0b-4d2a-973d-443a175f564e")
 	)
 	(wire
 		(pts
@@ -3514,16 +3430,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 110.49) (xy 33.02 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77915d9c-6649-4e41-b3c1-fa6ccf669daa")
-	)
-	(wire
-		(pts
 			(xy 81.28 129.54) (xy 81.28 132.08)
 		)
 		(stroke
@@ -3571,16 +3477,6 @@
 			(type default)
 		)
 		(uuid "7ecfc7e4-a86c-4782-92eb-0c4faaadb2a3")
-	)
-	(wire
-		(pts
-			(xy 45.72 107.95) (xy 124.46 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7fb91f73-39a0-4045-a432-ea4379365b74")
 	)
 	(wire
 		(pts
@@ -3674,7 +3570,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 95.25) (xy 124.46 95.25)
+			(xy 113.03 95.25) (xy 124.46 95.25)
 		)
 		(stroke
 			(width 0)
@@ -3691,26 +3587,6 @@
 			(type default)
 		)
 		(uuid "931dc5a5-da46-47f8-97be-b310f909eca6")
-	)
-	(wire
-		(pts
-			(xy 59.69 105.41) (xy 60.96 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93e001cb-07b4-4510-8ec9-d18f93c656a3")
-	)
-	(wire
-		(pts
-			(xy 113.03 95.25) (xy 116.84 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93f56174-4f97-433b-ae62-ce72b9abca24")
 	)
 	(wire
 		(pts
@@ -3744,7 +3620,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 97.79) (xy 124.46 97.79)
+			(xy 113.03 97.79) (xy 124.46 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3804,7 +3680,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 110.49) (xy 124.46 110.49)
+			(xy 113.03 110.49) (xy 124.46 110.49)
 		)
 		(stroke
 			(width 0)
@@ -4092,16 +3968,6 @@
 		)
 		(uuid "f9596a6a-fa5f-4a16-8483-621a699a5bbd")
 	)
-	(wire
-		(pts
-			(xy 100.33 97.79) (xy 101.6 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffbb4f6c-fa7f-4dfe-ac43-33a635c47861")
-	)
 	(global_label "SWCLK"
 		(shape input)
 		(at 114.3 77.47 180)
@@ -4126,7 +3992,7 @@
 	)
 	(global_label "EPD_BUSY"
 		(shape input)
-		(at 59.69 105.41 180)
+		(at 113.03 105.41 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4136,7 +4002,7 @@
 		)
 		(uuid "0ab39508-8657-49a2-b0ce-0ef144d6991c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 47.1496 105.41 0)
+			(at 100.4896 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4170,7 +4036,7 @@
 	)
 	(global_label "EPD_DC"
 		(shape input)
-		(at 44.45 107.95 180)
+		(at 113.03 107.95 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4180,7 +4046,7 @@
 		)
 		(uuid "27a08fcc-7afc-462c-9ded-d2dea69dc13c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 34.2682 107.95 0)
+			(at 102.8482 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4192,7 +4058,7 @@
 	)
 	(global_label "EPD_CS"
 		(shape input)
-		(at 72.39 102.87 180)
+		(at 113.03 102.87 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4202,7 +4068,7 @@
 		)
 		(uuid "3924fc43-667a-49d2-bee2-e78d757361d9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.2687 102.87 0)
+			(at 102.9087 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4247,28 +4113,6 @@
 		(uuid "7995714f-ba60-4d5b-9240-b211aa4c73a6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 208.3622 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CMD_ALIM_SCREEN"
-		(shape input)
-		(at 187.96 90.17 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "92c789b9-7d1a-48d9-bd01-6d8e40c2a20f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 208.4227 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4324,7 +4168,7 @@
 	)
 	(global_label "EPD_SCK"
 		(shape input)
-		(at 86.36 100.33 180)
+		(at 113.03 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4334,7 +4178,7 @@
 		)
 		(uuid "9ed04c97-ca0a-462f-90f3-d656ca06b700")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.9687 100.33 0)
+			(at 101.6387 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4368,7 +4212,7 @@
 	)
 	(global_label "EPD_RST"
 		(shape input)
-		(at 31.75 110.49 180)
+		(at 113.03 110.49 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4378,7 +4222,7 @@
 		)
 		(uuid "bfa104d5-84ca-4261-8964-42d9bcc16ee3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 20.6611 110.49 0)
+			(at 101.9411 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4478,7 +4322,7 @@
 	)
 	(global_label "EPD_PWR"
 		(shape input)
-		(at 100.33 97.79 180)
+		(at 113.03 97.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4488,7 +4332,7 @@
 		)
 		(uuid "f13ec476-14db-4e2a-b515-406db2ac6f62")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.6968 97.79 0)
+			(at 101.3968 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5662,145 +5506,6 @@
 			(project "Station_Meteo_pcb"
 				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17/9ce3ae06-c5cc-4000-b6d8-5ae3d540ff9d"
 					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 60.96 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "1b361f09-37b0-4bcc-9412-0cd12fcdc11c")
-		(property "Reference" "TP10"
-			(at 59.436 99.568 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 49.53 101.854 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 66.04 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 66.04 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 60.96 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 60.96 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 60.96 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 60.96 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 60.96 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 60.96 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 60.96 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 60.96 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 60.96 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "046e40b5-97d9-4eaf-93a3-3555b447474d")
-		)
-		(instances
-			(project "Station_Meteo_pcb"
-				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17/9ce3ae06-c5cc-4000-b6d8-5ae3d540ff9d"
-					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -8075,145 +7780,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 87.63 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "8cb908ac-820f-4426-b861-9626443e3a76")
-		(property "Reference" "TP8"
-			(at 86.106 94.488 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 76.2 96.774 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 92.71 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 92.71 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 87.63 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 87.63 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 87.63 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 87.63 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 87.63 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 87.63 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 87.63 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 87.63 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 87.63 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0982c1d9-3de1-4a8f-952b-1bb939e1a85a")
-		)
-		(instances
-			(project "Station_Meteo_pcb"
-				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17/9ce3ae06-c5cc-4000-b6d8-5ae3d540ff9d"
-					(reference "TP8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 72.39 127 0)
 		(unit 1)
@@ -8692,284 +8258,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 166.37 90.17 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "ace3ac3c-c132-4a08-a337-6f58ecd9fd0a")
-		(property "Reference" "TP17"
-			(at 172.72 93.218 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 177.8 93.726 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 161.29 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 161.29 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 166.37 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 166.37 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 166.37 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 166.37 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 166.37 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 166.37 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 166.37 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 166.37 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 166.37 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bbb95e87-e3cb-4741-9757-3a2a7a4e5640")
-		)
-		(instances
-			(project "Station_Meteo_pcb"
-				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17/9ce3ae06-c5cc-4000-b6d8-5ae3d540ff9d"
-					(reference "TP17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 73.66 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "b223b097-a079-4bac-b275-c34ab86beb31")
-		(property "Reference" "TP9"
-			(at 72.136 97.028 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 62.23 99.314 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 78.74 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 78.74 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 73.66 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 73.66 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 73.66 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 73.66 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 73.66 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 73.66 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 73.66 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 73.66 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 73.66 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b662c21f-58dc-4c05-a74b-6ea106b04887")
-		)
-		(instances
-			(project "Station_Meteo_pcb"
-				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17/9ce3ae06-c5cc-4000-b6d8-5ae3d540ff9d"
-					(reference "TP9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 161.29 127 0)
 		(unit 1)
@@ -9105,145 +8393,6 @@
 			(project "Station_Meteo_pcb"
 				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17/9ce3ae06-c5cc-4000-b6d8-5ae3d540ff9d"
 					(reference "C21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 33.02 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "bd4d424e-e1af-4660-8c7e-2d8abbf31d5d")
-		(property "Reference" "TP12"
-			(at 31.496 104.648 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 21.59 106.934 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 38.1 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 38.1 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 33.02 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 33.02 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 33.02 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 33.02 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 33.02 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 33.02 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 33.02 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 33.02 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 33.02 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b5368ab1-ac0f-4657-b531-1d7c7fdecbb3")
-		)
-		(instances
-			(project "Station_Meteo_pcb"
-				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17/9ce3ae06-c5cc-4000-b6d8-5ae3d540ff9d"
-					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -10220,423 +9369,6 @@
 			(project "Station_Meteo_pcb"
 				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17/9ce3ae06-c5cc-4000-b6d8-5ae3d540ff9d"
 					(reference "C30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 45.72 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "dc2a5ff4-c427-4b08-98b3-90c3d9b47eb2")
-		(property "Reference" "TP11"
-			(at 44.196 102.108 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 34.29 104.394 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 50.8 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 50.8 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 45.72 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 45.72 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 45.72 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 45.72 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 45.72 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 45.72 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 45.72 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 45.72 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 45.72 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "12abd99c-b5c8-4c40-85bc-0bf2aea705f4")
-		)
-		(instances
-			(project "Station_Meteo_pcb"
-				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17/9ce3ae06-c5cc-4000-b6d8-5ae3d540ff9d"
-					(reference "TP11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 101.6 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "dc63979e-a0a9-41d8-8b8e-bf6fa0507bd5")
-		(property "Reference" "TP7"
-			(at 100.076 91.948 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 90.17 94.234 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 106.68 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.68 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 101.6 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 101.6 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 101.6 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 101.6 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 101.6 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 101.6 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 101.6 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 101.6 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 101.6 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "da5aa886-e651-42d9-896a-93a5c78d5f1a")
-		)
-		(instances
-			(project "Station_Meteo_pcb"
-				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17/9ce3ae06-c5cc-4000-b6d8-5ae3d540ff9d"
-					(reference "TP7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 116.84 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "e14b15b7-1408-4744-bb82-de519eca8179")
-		(property "Reference" "TP6"
-			(at 115.316 89.408 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 105.41 91.694 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 121.92 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 121.92 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 116.84 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 116.84 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 116.84 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 116.84 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 116.84 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 116.84 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 116.84 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 116.84 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 116.84 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cd7b18a2-2480-44fc-8657-636cf094ed4c")
-		)
-		(instances
-			(project "Station_Meteo_pcb"
-				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17/9ce3ae06-c5cc-4000-b6d8-5ae3d540ff9d"
-					(reference "TP6")
 					(unit 1)
 				)
 			)
