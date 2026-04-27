@@ -4302,6 +4302,12 @@
 		(uuid "70e3ff43-860c-4f6c-9da4-df154035904d")
 	)
 	(junction
+		(at 191.77 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78881aff-f2a5-4175-8f87-d5b30db1cebb")
+	)
+	(junction
 		(at 34.29 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4330,6 +4336,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "80ad5a7b-5bc8-4bf3-a516-6359b1426be9")
+	)
+	(junction
+		(at 186.69 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85afd85d-0f0b-4456-8033-f56335b18497")
 	)
 	(junction
 		(at 40.64 104.14)
@@ -4845,7 +4857,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 115.57) (xy 46.99 116.84)
+			(xy 46.99 115.57) (xy 46.99 119.38)
 		)
 		(stroke
 			(width 0)
@@ -4892,6 +4904,16 @@
 			(type default)
 		)
 		(uuid "4a50599b-de12-4720-ac79-619871a679ba")
+	)
+	(wire
+		(pts
+			(xy 80.01 116.84) (xy 85.09 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b8f2649-74e1-4d70-81d9-bae43844e2d5")
 	)
 	(wire
 		(pts
@@ -5055,16 +5077,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 116.84) (xy 85.09 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65815d42-e62e-4920-a40e-ee11a6c2953f")
-	)
-	(wire
-		(pts
 			(xy 170.18 113.03) (xy 158.75 113.03)
 		)
 		(stroke
@@ -5185,6 +5197,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 33.02) (xy 203.2 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82dda86d-03eb-461f-befe-ee6a373b40b8")
+	)
+	(wire
+		(pts
 			(xy 256.54 45.72) (xy 256.54 49.53)
 		)
 		(stroke
@@ -5192,6 +5214,16 @@
 			(type default)
 		)
 		(uuid "8396d754-c4f8-482c-8722-bb03d21af507")
+	)
+	(wire
+		(pts
+			(xy 80.01 119.38) (xy 85.09 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85c1c734-ac53-41fc-ade7-baf2f24927d2")
 	)
 	(wire
 		(pts
@@ -5225,7 +5257,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 119.38) (xy 72.39 119.38)
+			(xy 58.42 116.84) (xy 72.39 116.84)
 		)
 		(stroke
 			(width 0)
@@ -5475,7 +5507,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 116.84) (xy 72.39 116.84)
+			(xy 46.99 119.38) (xy 72.39 119.38)
 		)
 		(stroke
 			(width 0)
@@ -5525,7 +5557,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 115.57) (xy 58.42 119.38)
+			(xy 58.42 115.57) (xy 58.42 116.84)
 		)
 		(stroke
 			(width 0)
@@ -5595,16 +5627,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 119.38) (xy 85.09 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce13aaf0-8183-4bf9-8cda-3a12c02f1e0a")
-	)
-	(wire
-		(pts
 			(xy 182.88 104.14) (xy 185.42 104.14)
 		)
 		(stroke
@@ -5642,6 +5664,16 @@
 			(type default)
 		)
 		(uuid "d0daa6b8-a93a-4767-904e-0230ff662720")
+	)
+	(wire
+		(pts
+			(xy 186.69 33.02) (xy 191.77 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d33f75e6-f58f-4b64-a47a-5ee34c144575")
 	)
 	(wire
 		(pts
@@ -6408,6 +6440,145 @@
 			(project "Station_Meteo_pcb"
 				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17/46b21e09-ea67-4534-a48d-e2dad69aede0"
 					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 191.77 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "14cbe419-e242-4d89-b145-f694e9273fca")
+		(property "Reference" "3V3"
+			(at 193.294 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 180.34 29.464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 196.85 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 191.77 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 191.77 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 191.77 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 191.77 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 191.77 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 191.77 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 191.77 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 191.77 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 191.77 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91fcb8ed-743f-4769-92e6-4c6834c67a3e")
+		)
+		(instances
+			(project "Station_Meteo_pcb"
+				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17/46b21e09-ea67-4534-a48d-e2dad69aede0"
+					(reference "3V3")
 					(unit 1)
 				)
 			)
@@ -7878,7 +8049,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 76.2 119.38 270)
+		(at 76.2 116.84 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7886,7 +8057,7 @@
 		(dnp no)
 		(uuid "4c9be8ba-6014-4054-b5bc-cbb4edccf5e7")
 		(property "Reference" "R14"
-			(at 76.2 121.92 90)
+			(at 76.2 112.268 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7894,7 +8065,7 @@
 			)
 		)
 		(property "Value" "150"
-			(at 76.2 123.952 90)
+			(at 76.2 114.554 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7902,7 +8073,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 76.2 117.602 90)
+			(at 76.2 115.062 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7911,7 +8082,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.2 119.38 0)
+			(at 76.2 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7920,7 +8091,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 76.2 119.38 0)
+			(at 76.2 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7929,7 +8100,7 @@
 			)
 		)
 		(property "LCSC" "C22808"
-			(at 76.2 119.38 90)
+			(at 76.2 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7938,7 +8109,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 76.2 119.38 90)
+			(at 76.2 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7947,7 +8118,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 76.2 119.38 90)
+			(at 76.2 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7956,7 +8127,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 76.2 119.38 90)
+			(at 76.2 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7965,7 +8136,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 76.2 119.38 90)
+			(at 76.2 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7974,7 +8145,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 76.2 119.38 90)
+			(at 76.2 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7983,7 +8154,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 76.2 119.38 90)
+			(at 76.2 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7992,7 +8163,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 76.2 119.38 90)
+			(at 76.2 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10729,7 +10900,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 76.2 116.84 270)
+		(at 76.2 119.38 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10737,7 +10908,7 @@
 		(dnp no)
 		(uuid "a27c7fad-9c0a-44a5-9260-09b9d3177739")
 		(property "Reference" "R13"
-			(at 76.2 112.776 90)
+			(at 76.2 121.666 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10745,7 +10916,7 @@
 			)
 		)
 		(property "Value" "470"
-			(at 76.2 114.808 90)
+			(at 76.2 123.952 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10753,7 +10924,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 76.2 115.062 90)
+			(at 76.2 117.602 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10762,7 +10933,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.2 116.84 0)
+			(at 76.2 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10771,7 +10942,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 76.2 116.84 0)
+			(at 76.2 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10780,7 +10951,7 @@
 			)
 		)
 		(property "LCSC" "C23179"
-			(at 76.2 116.84 90)
+			(at 76.2 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10789,7 +10960,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 76.2 116.84 90)
+			(at 76.2 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10798,7 +10969,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 76.2 116.84 90)
+			(at 76.2 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10807,7 +10978,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 76.2 116.84 90)
+			(at 76.2 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10816,7 +10987,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 76.2 116.84 90)
+			(at 76.2 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10825,7 +10996,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 76.2 116.84 90)
+			(at 76.2 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10834,7 +11005,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 76.2 116.84 90)
+			(at 76.2 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10843,7 +11014,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 76.2 116.84 90)
+			(at 76.2 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12432,6 +12603,145 @@
 			(project ""
 				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17/46b21e09-ea67-4534-a48d-e2dad69aede0"
 					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 203.2 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "dbcf61ad-9c3c-4f1c-8b77-87b2b28cf158")
+		(property "Reference" "3V3_1"
+			(at 204.724 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 191.77 29.464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 208.28 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 203.2 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 203.2 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 203.2 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 203.2 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 203.2 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 203.2 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 203.2 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 203.2 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 203.2 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d58a21e-0256-4c66-9f2e-d1d385b91ab6")
+		)
+		(instances
+			(project "Station_Meteo_pcb"
+				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17/46b21e09-ea67-4534-a48d-e2dad69aede0"
+					(reference "3V3_1")
 					(unit 1)
 				)
 			)

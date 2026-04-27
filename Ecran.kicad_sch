@@ -6104,7 +6104,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "657f2128-5dcc-4f60-83b3-093ab14fb4b2")
-		(property "Reference" "GDR"
+		(property "Reference" "GDR1"
 			(at 142.748 54.102 0)
 			(effects
 				(font
@@ -6228,7 +6228,7 @@
 		(instances
 			(project "Station_Meteo_pcb"
 				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17/3922ef04-1be0-4a1a-a432-baea08402c76"
-					(reference "GDR")
+					(reference "GDR1")
 					(unit 1)
 				)
 			)
