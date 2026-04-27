@@ -5110,7 +5110,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "53792348-f1de-4e5f-a86d-44bef8975999")
-		(property "Reference" "TP33"
+		(property "Reference" "VBUS1"
 			(at 72.136 30.988 0)
 			(effects
 				(font
@@ -5234,7 +5234,7 @@
 		(instances
 			(project "Station_Meteo_pcb"
 				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17/acdb258c-42de-401c-9111-59e7e388a012"
-					(reference "TP33")
+					(reference "VBUS1")
 					(unit 1)
 				)
 			)
@@ -6071,7 +6071,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "63c679fe-432b-4400-a0c3-0a0e8de984b5")
-		(property "Reference" "TP32"
+		(property "Reference" "BAT+1"
 			(at 105.156 91.948 0)
 			(effects
 				(font
@@ -6195,7 +6195,7 @@
 		(instances
 			(project "Station_Meteo_pcb"
 				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17/acdb258c-42de-401c-9111-59e7e388a012"
-					(reference "TP32")
+					(reference "BAT+1")
 					(unit 1)
 				)
 			)

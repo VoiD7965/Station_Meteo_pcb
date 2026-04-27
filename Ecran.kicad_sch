@@ -6104,7 +6104,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "657f2128-5dcc-4f60-83b3-093ab14fb4b2")
-		(property "Reference" "TP29"
+		(property "Reference" "GDR"
 			(at 142.748 54.102 0)
 			(effects
 				(font
@@ -6228,7 +6228,7 @@
 		(instances
 			(project "Station_Meteo_pcb"
 				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17/3922ef04-1be0-4a1a-a432-baea08402c76"
-					(reference "TP29")
+					(reference "GDR")
 					(unit 1)
 				)
 			)
@@ -7983,7 +7983,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cc097604-002a-46c1-9bc8-a0f7357242c6")
-		(property "Reference" "TP27"
+		(property "Reference" "ALIM_S1"
 			(at 94.488 69.342 0)
 			(effects
 				(font
@@ -8107,7 +8107,7 @@
 		(instances
 			(project "Station_Meteo_pcb"
 				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17/3922ef04-1be0-4a1a-a432-baea08402c76"
-					(reference "TP27")
+					(reference "ALIM_S1")
 					(unit 1)
 				)
 			)
@@ -8262,7 +8262,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d055cb56-1a90-4dd7-b9d5-13d41b27751f")
-		(property "Reference" "TP28"
+		(property "Reference" "RESE1"
 			(at 154.178 42.672 0)
 			(effects
 				(font
@@ -8386,7 +8386,7 @@
 		(instances
 			(project "Station_Meteo_pcb"
 				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17/3922ef04-1be0-4a1a-a432-baea08402c76"
-					(reference "TP28")
+					(reference "RESE1")
 					(unit 1)
 				)
 			)
