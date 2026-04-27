@@ -7142,7 +7142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Composants_Perso:Connector_24P_epaper"
+		(property "Footprint" "Composants_Perso:Connector_1x24_epaper"
 			(at 200.66 60.96 0)
 			(effects
 				(font
