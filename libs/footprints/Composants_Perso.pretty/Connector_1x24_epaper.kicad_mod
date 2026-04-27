@@ -1,4 +1,4 @@
-(footprint "Connector_24P_epaper"
+(footprint "Connector_1x24_epaper"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "Connector_24P_epaper"
+	(property "Value" "Connector_1x24_epaper"
 		(at 0 4.6 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -123,6 +123,46 @@
 		)
 		(layer "F.SilkS")
 		(uuid "63564ff5-ffea-452d-afe0-433d3370dc38")
+	)
+	(fp_line
+		(start -8 -3.1)
+		(end 8 -3.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "faa340ea-14f3-49c9-82ca-f15345afcf7d")
+	)
+	(fp_line
+		(start -8 3.1)
+		(end -8 -3.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "d5f06e64-82c3-48df-944a-4856806ec4d0")
+	)
+	(fp_line
+		(start 8 -3.1)
+		(end 8 3.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "0a0a619b-ec29-43ed-861e-2797ba6ca077")
+	)
+	(fp_line
+		(start 8 3.1)
+		(end -8 3.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "b6edb480-11ed-46b4-81fe-16ae821af59b")
 	)
 	(fp_rect
 		(start -7.75 -2.825)
