@@ -2781,12 +2781,6 @@
 		(uuid "74412de3-8998-458a-a5fc-333d49b700c4")
 	)
 	(junction
-		(at 139.7 21.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "778f22ae-096a-40fe-9a27-b055ac4cc152")
-	)
-	(junction
 		(at 118.11 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2859,6 +2853,12 @@
 		(uuid "c7258b4f-292a-4b9a-b754-ef76cf4c5f85")
 	)
 	(junction
+		(at 139.7 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cbabdba4-3351-4aef-a254-ae92850f3d0d")
+	)
+	(junction
 		(at 165.1 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2875,12 +2875,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "edd7bca7-de36-4fd2-ad6d-b08b620ae2fe")
-	)
-	(junction
-		(at 140.97 21.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f0a868c6-7766-433b-a6f4-9d5c9fe8c832")
 	)
 	(junction
 		(at 127 21.59)
@@ -3204,6 +3198,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 21.59) (xy 142.24 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e4b2397-6dd1-4bf3-bebb-7d4674c3b9b7")
+	)
+	(wire
+		(pts
 			(xy 113.03 105.41) (xy 124.46 105.41)
 		)
 		(stroke
@@ -3311,16 +3315,6 @@
 			(type default)
 		)
 		(uuid "4c318b6f-bf5e-4990-adc0-a76f038b125c")
-	)
-	(wire
-		(pts
-			(xy 140.97 21.59) (xy 142.24 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5296f966-dd25-472f-a3d1-e833dd5989c2")
 	)
 	(wire
 		(pts
@@ -3464,6 +3458,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 20.32) (xy 139.7 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a9c3259-4d68-4394-9dd4-3d8adb11e1e7")
+	)
+	(wire
+		(pts
 			(xy 142.24 124.46) (xy 139.7 124.46)
 		)
 		(stroke
@@ -3594,16 +3598,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 20.32) (xy 140.97 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9deb667e-4bed-4e85-b827-c692ed3d29fa")
-	)
-	(wire
-		(pts
 			(xy 113.03 97.79) (xy 124.46 97.79)
 		)
 		(stroke
@@ -3611,6 +3605,16 @@
 			(type default)
 		)
 		(uuid "9e037faf-b72e-4ce3-b5a5-b5bf68832d8f")
+	)
+	(wire
+		(pts
+			(xy 139.7 21.59) (xy 142.24 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a55109c4-e46f-47de-b650-e3769419bbdd")
 	)
 	(wire
 		(pts
@@ -3824,16 +3828,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 21.59) (xy 142.24 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7e0d684-4e6e-40bc-95c5-ad3a1410f104")
-	)
-	(wire
-		(pts
 			(xy 144.78 124.46) (xy 147.32 124.46)
 		)
 		(stroke
@@ -3901,16 +3895,6 @@
 			(type default)
 		)
 		(uuid "ef140c7b-57d0-4a58-82a6-cac996385abc")
-	)
-	(wire
-		(pts
-			(xy 139.7 21.59) (xy 140.97 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f080375a-6503-419c-aa3d-ab895e2e0ebb")
 	)
 	(wire
 		(pts
@@ -4583,7 +4567,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0c6df6de-c247-42a4-af38-96de960338d8")
-		(property "Reference" "TP20"
+		(property "Reference" "VDD1"
 			(at 96.774 118.11 0)
 			(effects
 				(font
@@ -4707,7 +4691,7 @@
 		(instances
 			(project "Station_Meteo_pcb"
 				(path "/90bd0b60-6e70-43e1-8410-99fb54688c17/9ce3ae06-c5cc-4000-b6d8-5ae3d540ff9d"
-					(reference "TP20")
+					(reference "VDD1")
 					(unit 1)
 				)
 			)
@@ -7603,7 +7587,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 140.97 20.32 180)
+		(at 139.7 20.32 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7612,7 +7596,7 @@
 		(fields_autoplaced yes)
 		(uuid "a28ad076-76ca-43e2-9f9c-1f822f1b2f49")
 		(property "Reference" "#PWR024"
-			(at 140.97 13.97 0)
+			(at 139.7 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7621,7 +7605,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 140.97 15.24 0)
+			(at 139.7 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7629,7 +7613,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 140.97 20.32 0)
+			(at 139.7 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7638,7 +7622,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 20.32 0)
+			(at 139.7 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7647,7 +7631,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 140.97 20.32 0)
+			(at 139.7 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
