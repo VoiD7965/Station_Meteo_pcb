@@ -10632,7 +10632,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "FS8205A"
+		(property "Value" "FH8205A"
 			(at 156.5911 119.38 90)
 			(effects
 				(font
@@ -10749,7 +10749,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "FS8205A"
+		(property "MP" "FH8205A"
 			(at 154.94 124.46 0)
 			(effects
 				(font
@@ -10789,7 +10789,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2830320"
+		(property "LCSC" "C2929075"
 			(at 154.94 124.46 90)
 			(effects
 				(font
