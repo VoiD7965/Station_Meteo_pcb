@@ -4435,7 +4435,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u/50"
+		(property "Value" "1u/50V"
 			(at 83.82 130.048 0)
 			(effects
 				(font
@@ -7669,7 +7669,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u/50"
+		(property "Value" "1u/50V"
 			(at 116.84 130.048 0)
 			(effects
 				(font
