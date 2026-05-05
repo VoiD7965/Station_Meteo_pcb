@@ -3589,16 +3589,6 @@
 		)
 		(uuid "03e776ad-9cdb-4816-b83d-c3e2849e9761")
 	)
-	(text "plutôt sur jlpcb C49118395\n"
-		(exclude_from_sim no)
-		(at 92.71 104.394 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "31bccae1-f35c-47bf-9413-09f70076fc85")
-	)
 	(junction
 		(at 29.21 90.17)
 		(diameter 0)
@@ -7566,7 +7556,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C49118399"
+		(property "LCSC" "C7525438"
 			(at 106.68 107.95 0)
 			(effects
 				(font

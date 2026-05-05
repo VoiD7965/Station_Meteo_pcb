@@ -194,6 +194,13 @@
 			)
 		)
 	)
+	(pad "" np_thru_hole circle
+		(at 36 7.85)
+		(size 1.8 1.8)
+		(drill 1.8)
+		(layers "*.Mask")
+		(uuid "80b499b8-d00d-479c-b6c3-853ecd711fbb")
+	)
 	(pad "1" smd rect
 		(at 40.65 0)
 		(size 5.3 7.5)
